@@ -125,10 +125,10 @@ def kelime_uzunlugu(kelime):
 kelimenin_uzunlugu = kelime_uzunlugu("Armut")
 
 def ortalama_hesabi(sayilar):
-    # print = input("Sayıları girin:")
-    # sayi = [ {}, {}, {}, {}]
-    # sayi = int(sayilar)
-    # sayi.append(sayilar)
+    print = input("Sayıları girin:")
+    sayi = [ {}, {}, {}, {}]
+    sayi = int(sayilar)
+    sayi.append(sayilar)
     sayilar [23,45,56,34,9,65]
     try:
         if len(sayilar) == 0:
