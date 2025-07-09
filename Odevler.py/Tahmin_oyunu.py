@@ -2,7 +2,7 @@ import random
 def tahmin_oyunu():
     print("Rastgele Sayı Tahmin Oyunu'na Hoş Geldiniz!")
     hedef = random.randint(5, 20)
-    print("5 ile 20 arasında bir sayı tuttun.")
+    print("5 ile 20 arasında bir sayı tutun.")
 
     while True:
         try:
@@ -11,6 +11,7 @@ def tahmin_oyunu():
                 print("Hata: Lütfen 5 ile 20 arasında bir sayı girin.")
                 continue
             tahmin = hedef
+            hedef = 15
             if tahmin == hedef:
                 print("Tebrikler! Sayıyı doğru tahmin ettiniz.")
                 break

@@ -17,7 +17,7 @@ def kisi_bilgileri(ad, soyad, yas):
                 print("Lütfen soyadınızı kelimelerle giriniz: ")
                 print("Başa dönülüyor.")
         yas = input("Yaşınız: ")
-        if int(yas) == "": 
+        if yas == "": 
                 print("Boş geçmeyiniz.")
                 print("Başa dönülüyor.")
                 continue

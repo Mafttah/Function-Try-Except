@@ -2,24 +2,24 @@ def toplama(sayi1, sayi2):
     while True:
         sayi1 = int(input("Birinci sayıyı girin: "))
         sayi2 = int(input("İkinci sayıyı girin: "))
-        if sayi2 > sayi1:
-            print("Sonuç eksi çıkacak.")
-            continue
-        break
-    try:
+        try:
             sonuc = sayi1 + sayi2
             return sonuc
-    except ValueError:
+        except ValueError:
             print(f"Değer hatası.")
-    return None
+        return None
 def cikarma(sayi1, sayi2):
     while True:
         sayi1 = int(input("Birinci sayıyı girin: "))
         sayi2 = int(input("İkinci sayıyı girin: "))
         if sayi2 > sayi1:
             print("Sonuç eksi çıkacak.")
+        if sayi1 < 0:
+            print("Sonuç negatif.")
+        if sayi2 < 0:
+            print("Sonuç pozitif.")
         try:
-            sonuc = sayi1 - sayi2
+            sonuc = sayi1 - (sayi2)
             return sonuc
         except ValueError:
             print(f"Değer hatası.")

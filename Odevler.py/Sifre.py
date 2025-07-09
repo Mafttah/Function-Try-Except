@@ -9,7 +9,7 @@ def sifre(sifre1, sifre2):
             if len(sifre2) < 8:
                     print("Hata: Şifre en az 8 karakter olmalıdır.")
                     continue
-            if not (sifre1, str) or not (sifre2, str):
+            if not str(sifre1) or not str(sifre2):
                 return "Hata: Şifre metin formatında olmalıdır."
             if sifre1 != sifre2:
                 print("Hata: Şifreler birbiriyle eşleşmiyor.")
@@ -21,5 +21,5 @@ def sifre(sifre1, sifre2):
         except ValueError:
             return "Hata: Beklenmeyen bir değer hatası oluştu."
         break
-esitlik = sifre("bora880!1", "ahmet341!")
+esitlik = sifre("bora880!1", "ahmet34!")
 print(esitlik)

@@ -10,20 +10,21 @@ def kullanici_dogrulama(isim, yas):
             print( "Adınızı boş geçemezsiniz.")
             print( "Başa dönülüyor.")
             continue
-        if not isim.isalpha() == "":
+        if not isim.isalpha():
             print("Lütfen adınızı kelimelerle giriniz: ")
             print("Başa dönülüyor.")       
-        try:
+            continue
+        break
+    try:
             print(f"İsminiz: {isim}, Yaşınız: {yas}")
-        except ValueError:
+    except ValueError:
             print(f"Sayı girmelisiniz.")   
             return  isim, yas
-        except TypeError:
+    except TypeError:
             print(f"Bir hata oluştu.")
             return isim, yas
-        except NameError:
+    except NameError:
             print(f"Bir isim girmelisiniz.")
             return isim, yas
-        break
      
 isim = kullanici_dogrulama("Ahmet",34)

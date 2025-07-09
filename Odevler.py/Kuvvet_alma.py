@@ -10,7 +10,6 @@ def kuvvet_alma(taban, us):
                     print("Sayı girmelisiniz.")
                     return taban ** us
                 print(f"{taban} üzeri {us} = {sonuc}")
-                print(sonuc)
             except TypeError:
                 print("Sayı olmayan değer girildi.")
             except ValueError:

@@ -1,16 +1,13 @@
-def ortalama_hesabi(sayilar):
-    print = input("Sayıları girin:")
-    sayi = [ {}, {}, {}, {}]
-    sayi = int(sayilar)
-    sayi.append(sayilar)
-    sayilar [23,45,56,34,9,65]
+def ortalama_hesabi(sayilar): 
+    sayilar = [23,45,56,34,9,65]
     try:
         if len(sayilar) == 0:
             print("Liste boş")
-            toplam = sum(sayilar)
-            print(toplam)
             ortalama = sum(sayilar)/len(sayilar)
+        print(sayilar)
         print(ortalama)
+    except ValueError:
+        print("Hata")    
     except ZeroDivisionError:
         print("Hata: Liste boş, ortalama hesaplanamaz.")
         return 
