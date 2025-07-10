@@ -8,6 +8,9 @@ def kisi_bilgileri(ad, soyad, yas):
         if not ad.strip().isalpha():
             print("Lütfen adınızı kelimelerle giriniz: ")
             print("Başa dönülüyor.")
+            continue
+        break
+    while True:
         soyad = input("Soyadınız: ")
         if soyad == "":
                 print("Adınızı boş geçemezsiniz.")
@@ -16,6 +19,9 @@ def kisi_bilgileri(ad, soyad, yas):
         if not soyad.strip().isalpha():
                 print("Lütfen soyadınızı kelimelerle giriniz: ")
                 print("Başa dönülüyor.")
+                continue
+        break
+    while True:    
         yas = input("Yaşınız: ")
         if yas == "": 
                 print("Boş geçmeyiniz.")
@@ -24,17 +30,18 @@ def kisi_bilgileri(ad, soyad, yas):
         if not yas.strip().isdigit():
                 print("Lütfen yaşınızı kelimelerle giriniz: ")
                 print("Başa dönülüyor.")
-        try:
+                continue
+        break
+    try:
             print(f"Adınız: {ad} Soyadınız: {soyad} Yaşınız: {yas}")
-        except Exception as e:
+    except Exception as e:
             print("Bilinmeyen hata {e}")
-        except KeyError:
+    except KeyError:
             print("Hatalı giriş.")
             return
-        except ValueError:
+    except ValueError:
             print("Yaşınızı girin.")
             return 
-        break
         
 
 sonuc = kisi_bilgileri("Ahmet", "Bozkurt", 40)

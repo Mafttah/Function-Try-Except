@@ -5,7 +5,7 @@ def sifre(sifre1, sifre2):
             if len(sifre1) < 8:
                     print("Hata: Şifre en az 8 karakter olmalıdır.")
                     continue
-            sifre2 = input("İkinci şifreyi giriniz: ")
+            sifre2 = input("Şifreyi yeniden giriniz: ")
             if len(sifre2) < 8:
                     print("Hata: Şifre en az 8 karakter olmalıdır.")
                     continue
@@ -21,6 +21,5 @@ def sifre(sifre1, sifre2):
             return "Hata: Beklenmeyen bir giriş hatası oluştu."
         except ValueError:
             return "Hata: Beklenmeyen bir değer hatası oluştu."
-        break
 esitlik = sifre("bora880!1", "ahmet34!")
 print(esitlik)
