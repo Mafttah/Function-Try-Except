@@ -1,32 +1,35 @@
-def toplama(sayi1, sayi2):
+def toplama():
     while True:
-        sayi1 = int(input("Birinci sayıyı girin: "))
-        sayi2 = int(input("İkinci sayıyı girin: "))
         try:
+            print("Toplama işlemi için:")
+            sayi1 = int(input("Birinci sayıyı girin: "))
+            sayi2 = int(input("İkinci sayıyı girin: "))
             sonuc = sayi1 + sayi2
             return sonuc
         except ValueError:
-            print(f"Değer hatası.")
-        return None
-def cikarma(sayi1, sayi2):
+            print("Değer hatası: Lütfen sayısal değer girin.")
+            continue
+
+def cikarma():
     while True:
-        sayi1 = int(input("Birinci sayıyı girin: "))
-        sayi2 = int(input("İkinci sayıyı girin: "))
-        if sayi2 > sayi1:
-            print("Sonuç eksi çıkacak.")
-        if sayi1 < 0:
-            print("Sonuç negatif.")
-        if sayi2 < 0:
-            print("Sonuç pozitif.")
         try:
-            sonuc = sayi1 - (sayi2)
+            print("Çıkarma işlemi için:")
+            sayi1 = int(input("Birinci sayıyı girin: "))
+            sayi2 = int(input("İkinci sayıyı girin: "))
+            if sayi2 > sayi1:
+                print("Sonuç eksi çıkacak.")
+            if sayi1 < 0:
+                print("Sonuç negatif.")
+            if sayi2 < 0:
+                print("Sonuç pozitif.")
+            sonuc = sayi1 - sayi2
             return sonuc
         except ValueError:
-            print(f"Değer hatası.")
-            return None
+            print("Değer hatası: Lütfen sayısal değer girin.")
+            continue
 
-toplama_sonucu = toplama(23,56)
+toplama_sonucu = toplama()
 print(f"Toplama işleminin sonucu: {toplama_sonucu}")
 
-cikarma_sonucu = cikarma(90,34)
+cikarma_sonucu = cikarma()
 print(f"Çıkarma işleminin sonucu: {cikarma_sonucu}")
