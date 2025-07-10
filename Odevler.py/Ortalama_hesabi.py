@@ -1,21 +1,21 @@
-def ortalama_hesabi(sayilar): 
-    sayilar = [23,45,56,34,9,65]
+def ortalama_hesabi(sayi): 
     try:
-        if len(sayilar) == 0:
-            print("Liste boş")
-            ortalama = sum(sayilar)/len(sayilar)
-        print(sayilar)
-        print(ortalama)
+        sayi1 = int(input("Birinci sayıyı girin: "))
+        sayi2 = int(input("İkinci sayıyı girin: "))
+        sayi3 = int(input("Birinci sayıyı girin: "))
+        sayi4 = int(input("İkinci sayıyı girin: "))
+        sonuc = sayi1 + sayi2 + sayi3 + sayi4
+        print("İşlemin sonucu: ",sonuc)
+        ortalama = sonuc / 4
+        print("İşlemin ortalaması: ",ortalama)
+        return
     except ValueError:
         print("Hata")    
     except ZeroDivisionError:
         print("Hata: Liste boş, ortalama hesaplanamaz.")
-        return 
-    except TypeError:
-        print("Hata: Liste sayısal olmayan bir değer içeriyor.")
-        return 
+        return  
     except Exception as e:
         print("Beklenmeyen hata:", e)
         return
 
-sonuc = ortalama_hesabi(12)
+sonuc = ortalama_hesabi(10)
