@@ -14,6 +14,7 @@ def sifre(sifre1, sifre2):
             if sifre1 != sifre2:
                 print("Hata: Şifreler birbiriyle eşleşmiyor.")
                 print("Tekrar deneyin.")
+                print(sifre1)
                 continue
             break
         except TypeError:
