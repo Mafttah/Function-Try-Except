@@ -1,22 +1,22 @@
-def kullanici_dogrulama(isim, yas):
-    while True:
-        yas = input("Yaşınız: ")
-        if yas == "": 
-            print("Boş geçmeyiniz.")
-            print("Başa dönülüyor.")
-            continue
-        isim = input("İsminizi girin: ")
-        if isim == "":
-            print( "Adınızı boş geçemezsiniz.")
-            print( "Başa dönülüyor.")
-            continue
-        if not isim.isalpha():
-            print("Lütfen adınızı kelimelerle giriniz: ")
-            print("Başa dönülüyor.")       
-            continue
-        break
+def kullanici_dogrulama():
     try:
-            print(f"İsminiz: {isim}, Yaşınız: {yas}")
+        while True:
+            yas = input("Yaşınız: ")
+            if yas == "": 
+                print("Boş geçmeyiniz.")
+                print("Başa dönülüyor.")
+                continue
+            while True:    
+                isim = input("İsminizi girin: ")
+                if isim == "":
+                    print( "Adınızı boş geçemezsiniz.")
+                    print( "Başa dönülüyor.")
+                    continue
+                if not isim.isalpha():
+                    print("Lütfen adınızı kelimelerle giriniz: ")
+                    print("Başa dönülüyor.")       
+                print(f"İsminiz: {isim}, Yaşınız: {yas}")
+                break
     except ValueError:
             print(f"Sayı girmelisiniz.")   
             return  isim, yas
@@ -27,4 +27,4 @@ def kullanici_dogrulama(isim, yas):
             print(f"Bir isim girmelisiniz.")
             return isim, yas
      
-isim = kullanici_dogrulama("Ahmet",34)
+isim = kullanici_dogrulama()
