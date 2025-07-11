@@ -1,7 +1,7 @@
 def kisi_bilgileri():
     while True:
         ad = input("Adınız: ")
-        if ad == "":
+        if not ad:
             print("Adınızı boş geçemezsiniz.")
             print("Başa dönülüyor.")
             continue
@@ -13,9 +13,10 @@ def kisi_bilgileri():
               print("Daha kısa bir ad girmelisiniz.")
               continue
         break
+    
     while True:
         soyad = input("Soyadınız: ")
-        if soyad == "":
+        if not soyad:
                 print("Adınızı boş geçemezsiniz.")
                 print("Başa dönülüyor.")
                 continue
@@ -25,10 +26,12 @@ def kisi_bilgileri():
                 continue
         if len(soyad) <= 5:
               print("Daha uzun bir soyad girmelisiniz.")
+              continue
         break
+    
     while True:    
         yas = input("Yaşınız: ")
-        if yas == "": 
+        if not yas: 
                 print("Boş geçmeyiniz.")
                 print("Başa dönülüyor.")
                 continue
@@ -37,16 +40,17 @@ def kisi_bilgileri():
                 print("Başa dönülüyor.")
         if int(yas) < 18:
                 print("Yaşınız uygun değil.")   
-        break     
+        break   
+
     try:
             print(f"Adınız: {ad} Soyadınız: {soyad} Yaşınız: {yas}")
-    except Exception as e:
-            print("Bilinmeyen hata {e}")
     except KeyError:
             print("Hatalı giriş.")
             return
     except ValueError:
             print("Yaşınızı girin.")
+    except Exception as e:
+            print("Bilinmeyen hata {e}")
             return 
         
 

@@ -5,6 +5,7 @@ def kelime_uzunlugu(kelime):
                 if not kelime.strip().isalpha():
                     print("Lütfen adınızı kelimelerle giriniz: ")
                     print("Başa dönülüyor.")
+                if len() < 8:
                     continue
                 break
     return 
