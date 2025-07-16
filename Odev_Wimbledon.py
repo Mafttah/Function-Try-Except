@@ -90,7 +90,7 @@ def player_statistics():
         print(f"Win Percentage: {win_percent:}%\n")
 
 
-player = player_statistics()
+player_statistics()
 
 # Turnuva özeti fonksiyonu
 
@@ -114,9 +114,12 @@ def tournament_summary():
         print(f"[{longest_match['round']}] {longest_match['player1']} vs {longest_match['player2']} | Score: {longest_match['score']} | Winner: {longest_match['winner']} ({max_sets} sets)")
     print("---------------------------\n")
 
+tournament_summary()    
+
 
 def main_menu():
     while True:
+        # Ana menü
         print("--- Wimbledon Championship Tracker ---")
         print("1. Add New Match")
         print("2. List All Matches")
@@ -145,6 +148,8 @@ def main_menu():
             break
         else:
             print("Please enter a valid choice between 1 and 5.\n")
+
+main_menu()
 
 
 
