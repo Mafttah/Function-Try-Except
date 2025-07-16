@@ -475,7 +475,7 @@ def Travel():
         second_place = input("Where to next? -> 1-8(4): ").strip()
         if second_place == "4":
             print("Your choice is Pechersk Lavra\n")
-            print("\n")
+            print("It is the center of Christianity in Eastern Europe and a very complex structure. Built in 1051 by Prince Yaroslav I as one of the first monasteries, while Kiev was still part of Russia, the Monastery of the Caves encompasses numerous churches, monasteries, and other structures. These caves are one of the features that make the Monastery of the Caves so special, having hosted nearly 50 million tourists from around the world to date. Beneath the structure are underground caves that can be explored with great curiosity by candlelight and a guide. Furthermore, the Pechersk Lavra holds great significance for the Orthodox world; Orthodox Christians visit here as pilgrims and for their religious observances. There are also special accommodations and prayer areas for pilgrims.\n")
         else:
             print("They are not ready.")
             break
@@ -499,7 +499,7 @@ def Travel():
         fifth_place = input("Where to next? -> 2-8(3): ").strip()
         if fifth_place == "3":
             print("Your choice is Khreshchatyk\n")
-            print("\n")
+            print("It's Kiev's most popular and main street. Let's start with some of its basic features. Khreshchatyk Street is 1.2 km long, passing through the center of Independence Square and extending all the way to Bessarabska Square. It's lively day and night, right in the heart of the city. You'll find shopping malls, boutiques, shops, restaurants, and bars here.\n")
         else:
             print("They are not ready.")
             break
@@ -507,7 +507,7 @@ def Travel():
         sixth_place = input("Where to next? -> 2-8(5): ").strip()
         if sixth_place == "5":
             print("Your choice is Maidan Nezaleshnosti\n")
-            print("\n")
+            print("Since the Ukrainian Independence Movement in 1990, it has been the center of numerous political demonstrations and protests, but the square's activities cannot be limited to these. It is also a place where many non-political activities take place. Kireshatik, the city's most popular street, runs through the heart of Independence Square. The square is divided into Kireshatik Street and the Monument and Globe areas. The Victory Column, located at the very center of Independence Square, is a symbol of Ukraine's independence and was erected in the square on the 10th anniversary of its independence. A statue of Berehynia, a woman adorned with rose branches, is placed atop the 61-meter-tall monument.\n")
         else:
             print("They are not ready.")
             break
@@ -515,7 +515,7 @@ def Travel():
         seventh_place = input("Where to next? -> 2-8(2): ").strip()
         if seventh_place == "2":
             print("Your choice is Saint Sophia’s Cathedral\n")
-            print("\n")
+            print("It has been listed as a UNESCO World Heritage Site. Its history dates back to the 11th century. In fact, the cathedral's 1000th anniversary was celebrated in 2011. The fact that such an old structure has preserved its original appearance so well is truly awe-inspiring. The cathedral is so unique and intriguing that it was voted one of the Seven Wonders of Ukraine. For a bird's-eye view of the city, you can also climb the Bell Tower.\n")
         else:
             print("They are not ready.")
             break
@@ -531,10 +531,121 @@ def Travel():
         ninth_place = input("Where to next? -> 6(6): ").strip()
         if ninth_place == "6":
             print("Your choice is Andrevski Spusk\n")
-            print("It connects Kontraktova and Sofia Squares. The name of the slope comes from the Andryevskaya Church, located right at its base. When you look at the church, you'll immediately notice a curious feature: it doesn't have a bell. This is due to a legend. It's believed that in the past, when Kiev was completely covered by sea, Andrew, one of Jesus' 12 apostles, raised a cross over the church, and the sea disappeared. The church doesn't have a bell because, according to legend, if it rings, the sea will reappear and flood Kiev. Along the slope are rows of shops selling a variety of goods and souvenirs. In the shops, you can find everything from antiques and figurines to paintings and flags, gramophones and vintage cameras. All the buildings here are old and historical.\n")
+            print("It connects Kontraktova and Sofia Squares. The name of the hill comes from the Andryevskaya Church, located at its base. When you look at the church, you'll immediately notice a curious feature: the church doesn't have a bell. This is due to a legend. It's believed that in the past, when Kiev was covered by sea, Andrew, one of Jesus' 12 apostles, raised a cross over the church, and the sea disappeared. The church doesn't have a bell because, according to legend, if it rings, the sea will reappear and flood Kiev. Along the hill are rows of shops selling a variety of goods and souvenirs. In the shops, you can find everything from antiques and figurines to paintings and flags, gramophones and vintage cameras. All the buildings here are old and historical.\n")
         else:
             print("They are not ready.")
             break
+
+        print("You've finished visiting Kiev. You can choose the next city.\n")
+
+        print("2. -> Lviv")
+        print("3. -> Lutsk")
+        city = input("Your choice for city? -> 2-3(3): \n ").strip()
+
+        if not city == "3":
+            print("They are not ready.")
+            break
+
+        print("1. -> The Holy Trinity Orthodox Cathedral")
+        print("2. -> Maydan Teatralnyy")
+        print("3. -> Lubart Castle")
+        print("4. -> Lesya Ukrainka Street\n")
+        print("You chose Lutsk. It takes 5 hours and 15 minutes by car. So you can choose a place to start your travel:\n")
+
+        place = input("Where do you want to start? -> 1-4(2):\n ").strip()
+        if place == "2":
+            print("Your choice is Maydan Teatralnyy\n")
+            print("The square features a large statue of Lesya Ukrainka, one of Ukraine's most beloved writers. Behind Lesya is the Taras Shevchenko Regional Drama and Music Theatre. The theatre, completed in the 1930s, and the statue, erected in the 1970s, are both relatively recent additions to Lutsk's architectural and monumental landscape. After Lutsk became part of the Russian Empire in 1795, the square was used as a parade ground for Russian troops occupying the city. Once home to military barracks, the square was renovated and reclaimed in 2011. Today, events, festivals, concerts, and celebrations are held there.\n")
+        else:
+            print("They are not ready.")
+            break
+
+        second_place = input("Where do you want to start? -> 1-4(1):\n ").strip()
+        if second_place == "1":
+            print("Your choice is The Holy Trinity Orthodox Cathedral\n")
+            print("The Holy Trinity Orthodox Cathedral, built in the Baroque style, was originally a complex of Catholic churches and Bernardine monasteries. The monastery was built in 1721 and completed in 1789. In the second half of the 19th century, the Bernardine monks' property was removed, and the complex was donated to the Orthodox community of Lutsk. In the 1870s, the church was rebuilt, adding a bell tower and a central dome to the narthex. The interior is polished with beeswax, and the exterior features a rose garden. The shrine within the church is dedicated to Nebesna Sotnya (those killed in Kiev during the Maidan revolution) and those who died fighting the Russians in the Donbas, recalling the turbulent times Ukraine has experienced more recently. The cathedral is a two-story, horseshoe-shaped structure with two towers in the central part of its façade. The building resembles the architecture of a palace rather than a monastery. The interior cathedral decor, preserved by a two-story, carved and gilded iconostasis built by Ukrainian masters, dates back to the 19th century.\n")
+        else:
+            print("They are not ready.")
+            break
+
+        third_place = input("Where do you want to start? -> 3-4(4):\n ").strip()
+        if third_place == "4":
+            print("Your choice is Lesya Ukrainka Street\n")
+            print("It is Lutsk's most popular street. Lesya Ukrainka Street (formerly Jagiellońska – Jagiellon Street) is a pedestrian street running from the city center, Theatre Square, to Brothers' Bridge Square. The street is 730 meters long and is home to at least ten churches and monasteries. The street began to develop in the eighteenth century, when the city began to expand along it. By the early 19th century, it had become the city's main thoroughfare. The street's name was changed to Lesya Ukrainka in the 1990s. It boasts many architectural landmarks and has become a major commercial artery for the city. Numerous cafes, restaurants, banks, businesses, shops, and stores are located along the street. You can easily identify buildings built by the Polish Empire in the 17th and 18th centuries, as well as buildings from the pre-Soviet era in the 19th century, which exhibit a strong Polish influence.\n")
+        else:
+            print("They are not ready.")
+            break
+
+        forth_place = input("Where do you want to start? -> 3(3):\n ").strip()
+        if forth_place == "3":
+            print("Your choice is Lubart Castle\n")
+            print("For many years, Lubart Castle served as the administrative and spiritual capital of the region. It also stands behind the Ukrainian currency of 200 hryvnias and is one of the seven wonders of Ukraine. Lutsk Castle consists of two parts: the Upper Castle, which has survived to this day, and the Lower, or Round Castle, where parts of its walls have been incorporated into other buildings and where one of its eight towers, the Czartoryski Tower, is located. Lutsk Castle is surrounded by ornate 17th-century churches and houses and is in remarkably good condition. Named Lubart Castle after the Lithuanian prince who ordered its construction, it has 13-meter-high ramparts and three tall rectangular towers, one of which houses the Bell Museum. There are also archaeological remains of a 12th-century church (St. John's Church) and a 14th-century palace, a small dungeon, and several small museums dedicated to books, bells, weapons, and local art.\n")
+        else:
+            print("They are not ready.")
+            break
+
+        print("You've finished visiting Lutsk. You can choose the next city.\n")
+
+        print("2. -> Lviv")
+        city = input("Your choice for city? -> 2(2): \n ").strip()
+
+        if not city == "2":
+            print("They are not ready.")
+            break
+
+        print("1. -> Rynok Square")
+        print("2. -> St. George's Cathedral")
+        print("3. -> Ivan Franko Park")
+        print("4. -> Virmenska Street")
+        print("5. -> Svobody Avenue")
+        print("6. -> Lviv High Castle")
+        print("7. -> Stryisky Park\n")
+
+        print("You chose Lviv. It takes 3 hours by car. So you can choose a place to start your travel:\n")
+
+        place = input("Where do you want to start? -> 1-7(6):\n ").strip()
+        if place == "6":
+            print("Your choice is \n")
+            print("\n")
+            break
+
+        second_place = input("Where do you want to start? -> 1-7(4):\n ").strip()
+        if second_place == "4":
+            print("Your choice is \n")
+            print("\n")
+            break
+
+        third_place = input("Where do you want to start? -> 1-7(1):\n ").strip()
+        if third_place == "1":
+            print("Your choice is \n")
+            print("\n")
+            break
+
+        forth_place = input("Where do you want to start? -> 2-7(5):\n ").strip()
+        if forth_place == "5":
+            print("Your choice is \n")
+            print("\n")
+            break
+
+        fifth_place = input("Where do you want to start? -> 2-7(3):\n ").strip()
+        if fifth_place == "3":
+            print("Your choice is \n")
+            print("\n")
+            break
+
+        sixth_place = input("Where do you want to start? -> 2-7(2):\n ").strip()
+        if sixth_place == "2":
+            print("Your choice is \n")
+            print("\n")
+            break
+
+        seventh_place = input("Where do you want to start? -> 7(7):\n ").strip()
+        if seventh_place == "7":
+            print("Your choice is \n")
+            print("\n")
+            break
+
+
 
 
 
@@ -584,7 +695,8 @@ def Travel():
             print("They are not ready.")
             break
 
-        print("You chose Odessa. So you can choose a place to start your travel:\n")
+        print("You chose . So you can choose a place to start your travel:\n")
+        print("\n")
 
     
 
