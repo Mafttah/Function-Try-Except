@@ -29,4 +29,4 @@ def sifre():
                 continue
                 break
         print(sifre1)
-# sifre()
+sifre()
