@@ -1,6 +1,54 @@
 # Maçları saklayacağımız liste
 all_matches = []
 
+def players():
+    print("Men players\n")
+print("Pedro Martínez")
+print("Jaume Munar")
+print("Alejandro Davidoviç Fokina")
+print("João Fonseca")
+print("Luca Nardi")
+print("Yoshihito Nishioka")
+print("Sebastián Báez")
+print("Beibit Zhukayev")
+print("Roberto Carballés Baena")
+print("Alex Michelsen")
+print("Giovanni Mpetshi Perricard")
+print("Aleksey Popirin")
+print("Francisco Cerúndolo") 
+print("Matteo Berrettini")
+print("Holger Rünü")
+print("Hugo Dellien")
+print("Laslo Djere")
+print("Jannik Sinner")
+print("Carlos Alcaraz")
+print("Novak Djokovic\n")
+
+print("Women Players\n")
+
+print("Iga Świątek")
+print("Sonay Kartal")
+print("Jessica Bouzas Maneiro")
+print("Aryna Sabalenka")
+print("Belinda Bencic")
+print("Laura Siegemund")
+print("Emma Navarro")
+print("Elise Mertens")
+print("Emma Raducanu")
+print("Renata Zarazúa")
+print("Kamilla Rakhimova")
+print("Hailey Baptiste")
+print("Danielle Collins")
+print("Liudmila Samsonova")
+print("Marie Bouzková")
+print("Katie Coulter")
+print("Eva Lys")
+print("Yasemin Paolini")
+
+players()
+
+
+
 # Maç ekleme foksiyonu
 def add_match():
     while True:
