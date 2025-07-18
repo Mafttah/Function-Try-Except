@@ -1,49 +1,84 @@
 # Maçları saklayacağımız liste
 all_matches = []
+# Todo: Players functionında oyuncular uygun bir tipte değişkende saklanacak şekilde güncellenmelidir. Burada players functionun içinde oyuncu adları sadece print ile gösteriliştir. 
+# dict in içinde oyunculara bir Id vererek snake_case formatıyla key kullanarak idct oluşturmak gerekiyor. (oyuncu sıra ID, oyuncu adı, oyuncu soyadı.)
+# Players ın içindekileri ayrıca kullanıcıya listeleyen for ile bir function yazılacak
+
+def main_menu():
+    while True:
+        # Ana menü
+        print("--- Wimbledon Championship Tracker ---")
+        print("1. Add New Match")
+        print("2. List All Matches")
+        print("3. View Player Statistics")
+        print("4. Show Tournament Summary")
+        print("5. Exit")
+        print("--------------------------------------")
+
+        try:
+            choice = int(input("Enter your choice (1-5): "))
+        except ValueError:
+            print("Invalid input! Please enter a number between 1 and 5.\n")
+            continue
+
+        # Seçime göre ilgili fonksiyonlar çağrılır
+        if choice == 1:
+            add_match()
+        if choice == 2:
+            list_matches()
+        if choice == 3:
+            player_statistics()
+        if choice == 4:
+            tournament_summary()
+        if choice == 5:
+            print("Exiting the program")
+            break
+        else:
+            print("Please enter a valid choice between 1 and 5.\n")
 
 def players():
     print("Men players\n")
-print("Pedro Martínez")
-print("Jaume Munar")
-print("Alejandro Davidoviç Fokina")
-print("João Fonseca")
-print("Luca Nardi")
-print("Yoshihito Nishioka")
-print("Sebastián Báez")
-print("Beibit Zhukayev")
-print("Roberto Carballés Baena")
-print("Alex Michelsen")
-print("Giovanni Mpetshi Perricard")
-print("Aleksey Popirin")
-print("Francisco Cerúndolo") 
-print("Matteo Berrettini")
-print("Holger Rünü")
-print("Hugo Dellien")
-print("Laslo Djere")
-print("Jannik Sinner")
-print("Carlos Alcaraz")
-print("Novak Djokovic\n")
+    print("Pedro Martínez")
+    print("Jaume Munar")
+    print("Alejandro Davidoviç Fokina")
+    print("João Fonseca")
+    print("Luca Nardi")
+    print("Yoshihito Nishioka")
+    print("Sebastián Báez")
+    print("Beibit Zhukayev")
+    print("Roberto Carballés Baena")
+    print("Alex Michelsen")
+    print("Giovanni Mpetshi Perricard")
+    print("Aleksey Popirin")
+    print("Francisco Cerúndolo") 
+    print("Matteo Berrettini")
+    print("Holger Rünü")
+    print("Hugo Dellien")
+    print("Laslo Djere")
+    print("Jannik Sinner")
+    print("Carlos Alcaraz")
+    print("Novak Djokovic\n")
 
-print("Women Players\n")
+    print("Women Players\n")
 
-print("Iga Świątek")
-print("Sonay Kartal")
-print("Jessica Bouzas Maneiro")
-print("Aryna Sabalenka")
-print("Belinda Bencic")
-print("Laura Siegemund")
-print("Emma Navarro")
-print("Elise Mertens")
-print("Emma Raducanu")
-print("Renata Zarazúa")
-print("Kamilla Rakhimova")
-print("Hailey Baptiste")
-print("Danielle Collins")
-print("Liudmila Samsonova")
-print("Marie Bouzková")
-print("Katie Coulter")
-print("Eva Lys")
-print("Yasemin Paolini")
+    print("Iga Świątek")
+    print("Sonay Kartal")
+    print("Jessica Bouzas Maneiro")
+    print("Aryna Sabalenka")
+    print("Belinda Bencic")
+    print("Laura Siegemund")
+    print("Emma Navarro")
+    print("Elise Mertens")
+    print("Emma Raducanu")
+    print("Renata Zarazúa")
+    print("Kamilla Rakhimova")
+    print("Hailey Baptiste")
+    print("Danielle Collins")
+    print("Liudmila Samsonova")
+    print("Marie Bouzková")
+    print("Katie Coulter")
+    print("Eva Lys")
+    print("Yasemin Paolini")
 
 players()
 
@@ -62,28 +97,28 @@ def add_match():
     while True:
         player1 = input("Enter Player 1 name: ")
         if not player1:
-                print("Write Player1.")
+                print("Please write Player1.")
                 continue
         break
     while True:
         player2 = input("Enter Player 2 name: ")
         if not player2:
-                print("Write Player2.")
+                print("Please write Player2.")
                 continue
         break
     while True:
         score = input("Enter match score (e.g., 6-3, 4-6, 7-5): ").strip()
         if not score:
-                print("Write Score.")
+                print("Please write Score.")
                 continue
         break
     while True:
         winner = input("Enter winner's name: ")
         if not winner:
-                print("Write winner.")
+                print("Please write winner.")
                 continue
         break
-    
+    # Dict tipinde match içine kullanıcıdan topladığım bilgileri ilgili keylere modelliyorum.
     match = {
         'round': round_name,
         'player1': player1,
@@ -164,38 +199,6 @@ def tournament_summary():
 
 tournament_summary()    
 
-
-def main_menu():
-    while True:
-        # Ana menü
-        print("--- Wimbledon Championship Tracker ---")
-        print("1. Add New Match")
-        print("2. List All Matches")
-        print("3. View Player Statistics")
-        print("4. Show Tournament Summary")
-        print("5. Exit")
-        print("--------------------------------------")
-
-        try:
-            choice = int(input("Enter your choice (1-5): "))
-        except ValueError:
-            print("Invalid input! Please enter a number between 1 and 5.\n")
-            continue
-
-        # Seçime göre ilgili fonksiyonlar çağrılır
-        if choice == 1:
-            add_match()
-        if choice == 2:
-            list_matches()
-        if choice == 3:
-            player_statistics()
-        if choice == 4:
-            tournament_summary()
-        if choice == 5:
-            print("Exiting the program")
-            break
-        else:
-            print("Please enter a valid choice between 1 and 5.\n")
 
 main_menu()
 

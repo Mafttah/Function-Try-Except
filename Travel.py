@@ -149,7 +149,7 @@ def Travel():
 
         print("1. -> Noul Neamt Monastry")
         print("2. -> 25th October Street")
-        place = input("Where do you want to start? -> 1-2:\n ").strip()
+        place = input("Where do you want to start? -> 1-2(1):\n ").strip()
 
         if place == "1":
             print("Your choice is Noul Neamt Monastry.\n")
@@ -170,7 +170,7 @@ def Travel():
 
         print("4. Balti")
         print("5. Soroca")
-        city = input("Your choice for city? -> 4-5:\n ").strip()
+        city = input("Your choice for city? -> 4-5(4):\n ").strip()
 
         if not city == "4":
             print("They are not ready.")
@@ -179,7 +179,7 @@ def Travel():
 
         print("1. -> St Constantin and Helena Cathedral")
         print("2. -> St. Nicolae Cathedral Balti")
-        place = input("Where do you want to start? -> 1-2:\n ").strip()
+        place = input("Where do you want to start? -> 1-2(1):\n ").strip()
 
         if place == "1":
             print("Your choice is St Constantin and Helena Cathedral.\n")
@@ -934,8 +934,88 @@ def Travel():
 
         print("1. -> Ulica Mariacka")
         print("2. -> Dlugi Targ")
-        print("3. -> St. Mary's Church")
-        print("4. -> \n")
+        print("3. -> St. Mary's Church\n")
+
+        place = input("Where do you want to start? -> 1-3(1):\n ").strip()
+        if not place == "1":
+            print("Your choice is Ulica Mariacka\n")
+            print("With its narrow, ornately decorated houses lined up side by side, it was once the subject of novels and films. Although severely damaged during World War II, it has since been rebuilt.")
+        else:
+            print("They are not ready.")
+            break
+
+        second_place = input("Where do you want to start? -> 2-3(3):\n ").strip()
+        if not second_place == "3":
+            print("Your choice is St. Mary's Church\n")
+            print("One of Gdańsk's most recognizable buildings, it is the largest brick church in Europe and is in the Gothic style.")
+        else:
+            print("They are not ready.")
+            break
+
+        third_place = input("Where do you want to start? -> 2(2):\n ").strip()
+        if not third_place == "2":
+            print("Your choice is Dlugi Targ\n")
+            print("Dugi Targ (Long Market) is a completely pedestrianized square, adorned with 17th-century buildings and adorned with Baroque city gates. This section of the city is called the Royal Route, so named because in ancient times, visiting kings would enter the city in processions through these gates.")
+        else:
+            print("They are not ready.")
+            break
+
+        print("You've finished visiting Szczecin. You can choose the next city.\n")
+
+        print("1. -> Lodz")
+        print("7. -> Warsaw")
+
+        city = input("Your choice for city? -> 1(1):\n ").strip()
+        if not city == "1":
+            print("They are not ready.")
+            break
+
+        print("You chose Lodz. It takes 5 hours and 20 minutes hours by car. So you can choose a place to start your travel:\n")
+
+        print("1. -> Piotrkowska Street")
+        print("2. -> Izrael Poznański Palace\n")
+
+        place = input("Where do you want to start? -> 1-2(2):\n ").strip()
+        if not place == "2":
+            print("Your choice is Izrael Poznański Palace\n")
+            print("It's home to the Lodz City Museum, where you can explore the city's rich history and cultural heritage.")
+        else:
+            print("They are not ready.")
+            break
+
+        place = input("Where do you want to start? -> 1(1):\n ").strip()
+        if not place == "1":
+            print("Your choice is Piotrkowska Street\n")
+            print("This street, the symbol of Łódź, is located in the city center. It is approximately 4 km long and runs in a straight line north and south between Plac Wolnosci and Plac Niepodlegtosci. The entire city has developed around it throughout history. This development pattern has shaped the city center into its current form. Initially a mere transportation route, the street has evolved over time into the city's main attraction, a commercial and entertainment center, and the focal point of a growing industrial development. Currently home to over 100 bars and restaurants, it is the longest and most fully pedestrianized street in Poland and also hosts numerous shops. During the peak tourist season in summer, the gardens along the street, with their vibrant landscapes, offer a delightful resting spot for both the eyes and tired bodies. On foot or by tram, you can get a close-up view of architectural structures like Trzej Fabrykanci (Three Manufacturers), Laweczka Tuwima (Tuwim's Bank), or the Pomnik kodzian Pretomu Tysi cleci (Monument to the People of Łódź at the Turn of the Millennium), comprised of 12,859 apartment blocks, each with their names inscribed on them.")
+        else:
+            print("They are not ready.")
+            break
+
+        print("You've finished visiting Szczecin. You can choose the next city.\n")
+
+        print("7. -> Warsaw")
+
+        city = input("Your choice for city? -> 7(7):\n ").strip()
+        if not city == "7":
+            print("They are not ready.")
+            break
+
+        print("You chose Warsaw. It takes 3 hours by car. So you can choose a place to start your travel:\n")
+
+        print("1. -> Old Town Square")
+        print("2. -> Saxon Garden")
+        print("3. -> Castle Square")
+        print("4. -> Krakowskie Przedmieście")
+        print("5. -> Royal Castle")
+        print("6. -> National Museum in Warsaw")
+        print("7. -> Nowy Świat Street")
+        print("8. -> Wilanów Palace")
+        print("9. -> Łazienki Park")
+        print("10. -> Łazienki Palace")
+        print("11. -> Sigismund's Column")
+        print("12. -> Palace of Culture and Science")
+        print("13. -> Warsaw New Town")
+        print("14. -> Taras Widokowy St Anne\n")
 
         place = input("Where do you want to start? -> ():\n ").strip()
         if not place == "":
