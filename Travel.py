@@ -1,3 +1,5 @@
+# TODO: Best practice olarak en kısa function en iyi functiondur, en uzun function çöptür.
+
 def Travel():
     while True:
         print("Europe -> 1")
