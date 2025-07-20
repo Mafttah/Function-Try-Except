@@ -1004,7 +1004,7 @@ def Travel():
 
         print("1. -> Old Town Square")
         print("2. -> Saxon Garden")
-        print("3. -> Castle Square")
+        print("3. -> Castle Square - Plac Zamkowy")
         print("4. -> Krakowskie Przedmieście")
         print("5. -> Royal Castle")
         print("6. -> National Museum in Warsaw")
@@ -1016,6 +1016,7 @@ def Travel():
         print("12. -> Palace of Culture and Science")
         print("13. -> Warsaw New Town")
         print("14. -> Taras Widokowy St Anne\n")
+        print("15. -> Krasinski Palace")
 
         place = input("Where do you want to start? -> ():\n ").strip()
         if not place == "":
@@ -1023,6 +1024,111 @@ def Travel():
             print("")
         else:
             print("They are not ready.")
+            break
+
+        second_place = input("Where do you want to start? -> ():\n ").strip()
+        if second_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        third_place = input("Where do you want to start? -> ():\n ").strip()
+        if third_place == "":
+            print("Your choice is \n")
+            print("\n")
+            break
+
+        forth_place = input("Where do you want to start? -> ():\n ").strip()
+        if forth_place == "":
+            print("Your choice is \n")
+            print("\n")
+
+        else:
+            print("They are not ready.")
+            break
+
+        fifth_place = input("Where do you want to start? -> ():\n ").strip()
+        if fifth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        sixth_place = input("Where do you want to start? -> ():\n ").strip()
+        if sixth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        seventh_place = input("Where do you want to start? -> ():\n ").strip()
+        if seventh_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        eighth_place = input("Where do you want to start? -> ():\n ").strip()
+        if eighth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        ninth_place = input("Where do you want to start? -> ():\n ").strip()
+        if ninth_place == "":
+            print("Your choice is \n")
+            print("\n")
+            break
+
+        tenth_place = input("Where do you want to start? -> ():\n ").strip()
+        if tenth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        eleventh_place = input("Where do you want to start? -> ():\n ").strip()
+        if eleventh_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        twelfth_place = input("Where do you want to start? -> ():\n ").strip()
+        if twelfth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        thirteenth_place = input("Where do you want to start? -> ():\n ").strip()
+        if thirteenth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        fourteenth_place = input("Where do you want to start? -> ():\n ").strip()
+        if fourteenth_place == "":
+            print("Your choice is \n")
+            print("\n")
+            break
+
+        fifteenth_place = input("Where do you want to start? -> ():\n ").strip()
+        if fifteenth_place == "":
+            print("Your choice is \n")
+            print("\n")
             break
 
 
