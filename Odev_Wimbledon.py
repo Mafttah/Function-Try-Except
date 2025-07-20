@@ -152,30 +152,35 @@ def add_match():
             print("Write Round.")
             continue
         break
+
     while True:
         player1 = input("Enter Player 1 name: ")
         if not player1:
                 print("Please write Player1.")
                 continue
         break
+
     while True:
         player2 = input("Enter Player 2 name: ")
         if not player2:
                 print("Please write Player2.")
                 continue
         break
+
     while True:
         score = input("Enter match score (e.g., 6-3, 4-6, 7-5): ").strip()
         if not score:
                 print("Please write Score.")
                 continue
         break
+
     while True:
         winner = input("Enter winner's name: ")
         if not winner:
                 print("Please write winner.")
                 continue
         break
+
     # Dict tipinde match içine kullanıcıdan topladığım bilgileri ilgili keylere modelliyorum.
     match = {
         'round': round_name,
@@ -237,14 +242,16 @@ def player_statistics():
 
 # Turnuva özeti fonksiyonu
     # Birden fazla maçı göstermiyor. Kontrol edilecek.
-def tournament_summary():
-    print("--- Tournament Summary ---")
-    total_matches = len(all_matches)
-    print(f"Total Matches Played: {total_matches}\n")
 
+def tournament_summary():
+    # Fast fail ile başarısızlıkları yakalayıp return ile çıkıyoruz.(Bu bir best practice dir.)
     if not all_matches:
         print("No matches to summarize.\n")
         return
+    
+    print("--- Tournament Summary ---")
+    total_matches = len(all_matches)
+    print(f"Total Matches Played: {total_matches}\n")
 
     print("All Matches:")
     for match in all_matches:
@@ -253,7 +260,7 @@ def tournament_summary():
         print(f"[{match['round']}] {match['player1']} vs {match['player2']} | Score: {match['score']} | Winner: {match['winner']} ({set_count} sets)")
 
     print("\n--- Longest Match(es) ---")
-    # Aynı anda en uzun maçı da gösterelim istersen
+    # Aynı anda en uzun maçı gösterir
     longest_matches = []
     max_sets = 0
 
@@ -276,6 +283,10 @@ def tournament_summary():
 main_menu()
 
 
+# TODO: sola yasla < işareti, sağa yasla > işareti, ortaya hizala ^ işareti
+# TODO: renklendirmeleri yap.
+# TODO: skorları ayıklayan bir tane fonksiyon yazılması lazım. 
+# TODO: Girilen skorları oyuncu bazında Wimbledon maç hesaplama yöntemlerine göre oyuncuya aktarıp gerekli karşılaştırmaları yapmak gerekiyor. 
 
 
 

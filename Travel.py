@@ -749,7 +749,7 @@ def Travel():
         ninth_place = input("Where do you want to start? -> 4(4):\n ").strip()
         if ninth_place == "4":
             print("Your choice is Floriańska Street\n")
-            print("\This street, a favorite spot for shopaholics, was built after the Tatar invasion of 1241, like many of the city's landmarks. Starting at St. Florian's Gate at the beginning of the Royal Route, it stretches all the way to Rynek Główny, the heart of the Old Town. In addition to its extensive shopping opportunities, Florianska Street offers visitors a wonderful blend of old and new.n")
+            print("This street, a favorite spot for shopaholics, was built after the Tatar invasion of 1241, like many of the city's landmarks. Starting at St. Florian's Gate at the beginning of the Royal Route, it stretches all the way to Rynek Główny, the heart of the Old Town. In addition to its extensive shopping opportunities, Florianska Street offers visitors a wonderful blend of old and new.\n")
         else:
             print("They are not ready.")
             break
@@ -1205,6 +1205,6 @@ def Travel():
         print("8. -> ")
         print("9. -> ")
 
-
+Travel()
     
 
