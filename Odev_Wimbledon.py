@@ -243,6 +243,7 @@ def player_statistics():
 # Turnuva özeti fonksiyonu
     # Birden fazla maçı göstermiyor. Kontrol edilecek.
 
+# TODO: sola yasla < işareti, sağa yasla > işareti, ortaya hizala ^ işareti
 def tournament_summary():
     # Fast fail ile başarısızlıkları yakalayıp return ile çıkıyoruz.(Bu bir best practice dir.)
     if not all_matches:
@@ -282,9 +283,7 @@ def tournament_summary():
 
 main_menu()
 
-
-# TODO: sola yasla < işareti, sağa yasla > işareti, ortaya hizala ^ işareti
-# TODO: renklendirmeleri yap.
+# TODO: Oyuncu istatistikleri için bir fonksiyon yazılması gerekiyor.
 # TODO: skorları ayıklayan bir tane fonksiyon yazılması lazım. 
 # TODO: Girilen skorları oyuncu bazında Wimbledon maç hesaplama yöntemlerine göre oyuncuya aktarıp gerekli karşılaştırmaları yapmak gerekiyor. 
 

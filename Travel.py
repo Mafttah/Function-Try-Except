@@ -11,33 +11,33 @@ def Travel():
             print("They are not ready.")
             break
 
-        print("\nWhich part of Europe would you like to go?\n ")
-        print("1. East Europe (Russia, Ukranie, Poland, Lithuania, Latvia, Estonia, Moldova)")
-        print("2. West Europe (England, Scotland, Wales, Ireland,Northern Ireland, France, Belgium, Netherland, Germany, Luxemburg)")
-        print("3. Latin Countries (Spain, Portugal, Italy")
-        print("4. Scandinavian Countries (Norway, Sweden, Fınland)")
-        print("5. Middle Europe Czechia, Austria, Slovenia, Slovakia)")
-        print("6. Balkans (Greece, Bulgaria, Romania, Montenegro, Makedonia, Serbia, Albania, Croatia, Hungary, Slovenia, Bosnia and Herzegovina)")
-        part = input("What is your choice for part of Europe? -> 1,2,3,4,5,6:\n ").strip()
+        while True:
 
-        if not part == "1":
-            print("They are not ready.")
-            break
+            print("\nWhich part of Europe would you like to go?\n ")
+            print("1. East Europe (Russia, Ukranie, Poland, Lithuania, Latvia, Estonia, Moldova)")
+            print("2. West Europe (England, Scotland, Wales, Ireland,Northern Ireland, France, Belgium, Netherland, Germany, Luxemburg)")
+            print("3. Latin Countries (Spain, Portugal, Italy")
+            print("4. Scandinavian Countries (Norway, Sweden, Fınland)")
+            print("5. Middle Europe Czechia, Austria, Slovenia, Slovakia)")
+            print("6. Balkans (Greece, Bulgaria, Romania, Montenegro, Makedonia, Serbia, Albania, Croatia, Hungary, Slovenia, Bosnia and Herzegovina)")
+            part = input("What is your choice for part of Europe? -> 1,2,3,4,5,6:\n ").strip()
 
-        print("\nYour choice is East Europe. Please choose a country:\n ")
-        print("1. Moldova")
-        print("2. Ukraine")
-        print("3. Poland")
-        print("4. Estonia")
-        print("5. Lithuania")
-        print("6. Russia")
-        print("7. Belarus")
-        print("8. Latvia")
-        country = input("Your choice for country? -> 1-8:\n ").strip()
+            if not part == "1":
+                print("They are not ready.")
+                break
 
-        if not country == "1":
-            print("They are not ready.")
-            break
+            while True:
+
+                print("\nYour choice is East Europe. Please choose a country:\n ")
+                print(f"1. Moldova", "2. Ukraine", "3. Poland", "4. Estonia")
+                print("5. Lithuania")
+                print("6. Russia")
+                print("7. Belarus")
+                print("8. Latvia")
+                country = input("Your choice for country? -> 1-8:\n ").strip()
+
+                if not country == "1":
+                    print("They are not ready.")
 
         print("Your choice is Moldova. Please choose a city:\n ")
         print("1. Kisinev")
