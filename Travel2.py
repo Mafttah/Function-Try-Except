@@ -1,6 +1,3 @@
-import colorama
-from colorama import Fore
-
 def Travel():
     while True:
         print(f"Continent Selection\n")
@@ -12,7 +9,7 @@ def Travel():
             break
         elif secim == "1":
             print("Selected: Europe\n")
-            print(f"Regions in Europe\n")
+            print("Regions in Europe\n")
             print(f"1. East Europe (Russia, Ukraine, Poland, etc.), 2. West Europe (England, France, Germany, etc.), 3. Latin (Spain, Portugal, Italy), 4. Scandinavian (Norway, Sweden, Finland), 5. Central Europe (Austria, Hungary, Czechia, etc.), 6. Balkans (Greece, Romania, Serbia, etc.)\n")
             input("Select a region: ")
 
@@ -35,41 +32,20 @@ def Travel():
         print("\nYour choice is East Europe. Please choose a country:\n ")
         print(f"1. Moldova", "2. Ukraine", "3. Poland", "4. Estonia", "5. Lithuania", "6. Russia", "7. Belarus", "8. Latvia \n")
         country = input("Your choice for country? -> 1-8(1):\n ").strip()
+        continue
 
-        if not country == "1":
-            print("They are not ready.")
-            break
-        elif country == "2":
-            print("They are not ready.")
-            break
-        elif country == "3":            
-            print("They are not ready.")
-            break
-        elif country == "4":
-            print("They are not ready.")
-            break
-        elif country == "5":
-            print("They are not ready.")
-            break
-        elif country == "6":
-            print("They are not ready.")
-            break
-        elif country == "7":
-            print("They are not ready.")
-            break
-        elif country == "8":
-            print("They are not ready.")
-            break
-        else:
-            print("They are not ready.")
-            break
-    print("Your choice is Moldova. Please choose a city:\n ")
+    if not country == "1":
+        print("They are not ready.")
+
+    print("Your choice is Moldova. Please choose a city:\n")
     print(f"1. Kisinev and Comrat", "2. Tiraspol", "3. Balti", "4. Soroca")
     city = input("Your choice for city? -> 1,2,3,4:(1)\n ").strip()
     if city == "1":
         print("You have selected Kisinev and Comrat. So you can choose a place to start your travel:\n ")
-    print(f"1. Cathedral Park", "2. Triumph Arc", "3. Stefan Cel Mare Central Park", "4. Stefan cel Mare si Sfant Boulevard", "5. Valea Morilor Park", "6. Mustafa Kemal Atatürk Library", "7. Strada Lenin Street", "8. Central Park")
-    place = input("Where do you want to start? -> 1-8():\n ").strip()
+    else:
+        print("They are not ready.")
+        print(f"1. Cathedral Park", "2. Triumph Arc", "3. Stefan Cel Mare Central Park", "4. Stefan cel Mare si Sfant Boulevard", "5. Valea Morilor Park", "6. Mustafa Kemal Atatürk Library", "7. Strada Lenin Street", "8. Central Park")
+    place = input("Where do you want to start? -> 1-8(1):\n ").strip()
     if place == "1":
         print("You have selected Cathedral Park.")
         print("Moldova's oldest and most impressive park is the 7-hectare Stefan Cel Mare Central Park, which is very popular with locals, especially during the summer months. Children's playgrounds make the park a particularly good choice for families. In other parts of the park, you can see busts of Moldovan and Romanian writers and political figures")
@@ -142,20 +118,6 @@ def Travel():
 
         if not country == "2":
             print("They are not ready.")
-        elif country == "3":
-            print("They are not ready.")
-        elif country == "4":
-            print("They are not ready.")
-        elif country == "5":       
-            print("They are not ready.")
-        elif country == "6":
-            print("They are not ready.")
-        elif country == "7":
-            print("They are not ready.")
-        elif country == "8":
-            print("They are not ready.")
-        else:
-            print("They are not ready.")
 
             print("Your choice is Ukraine. Please choose a city:\n ")
             print(f"1. -> Odessa", "2. -> Lviv", "3. -> Lutsk", "4. -> Kharkiv", "5. -> Kiev", "6. -> Zaporijya", "7. -> Donetsk")
@@ -175,51 +137,40 @@ def Travel():
         else:
             print("They are not ready.")
 
-
         second_place = input("After travelling the Boulevard, where do you want to go next? -> 1-4 6-8 (2): ").strip()
         if second_place == "2":
-            print("Your choice is Triumph Arc.\n")
-            print("When you finish travelling the Boulevard, just walk straight to see it.\n")
-            print("The copper from cannons captured by Russian forces from the Ottoman Empire was melted down. The bell, (also known as the Clopote-Velican bell,) was originally designed for use in the cathedral's bell tower, but because it was so large, it was decided to use it on the Triumphal Arch.\n")
+            print(f"Your choice is Triumph Arc.\n", "When you finish travelling the Boulevard, just walk straight to see it.\n", "The copper from cannons captured by Russian forces from the Ottoman Empire was melted down. The bell, (also known as the Clopote-Velican bell,) was originally designed for use in the cathedral's bell tower, but because it was so large, it was decided to use it on the Triumphal Arch.\n")
         else:
             print("They are not ready.")
 
         third_place = input("After travelling the Arc, where do you want to go next? -> 1,3,4,6,8 (1): ").strip()
         if third_place == "1":
-            print("Your choice is Cathedral Park.\n")
-            print("When you arrive Cathedral Park, you will see the Cathedral of the Nativity located in the center of the park." "--The main cathedral of the Moldovan Orthodox Church. Built in the 1830s by order of the governor of New Russia, Prince Mikhail Semyonovich Vorontsov, the cathedral was designed by the renowned Russian architect Abram Melnikov.--\n")
-            print("Opening Hours: Weekdays 08:00-16:00 | Weekends 08:00-20:00")
-            print("Entry: Free\n")
+            print("Your choice is Cathedral Park.\n", "When you arrive Cathedral Park, you will see the Cathedral of the Nativity located in the center of the park." "--The main cathedral of the Moldovan Orthodox Church. Built in the 1830s by order of the governor of New Russia, Prince Mikhail Semyonovich Vorontsov, the cathedral was designed by the renowned Russian architect Abram Melnikov.--\n")
+            print(f"Opening Hours: Weekdays 08:00-16:00 | Weekends 08:00-20:00", "Entry: Free\n")
         else:
             print("They are not ready.")
 
         forth_place = input("After Cathedral Park, where next? -> 3,4,6,8 (3): ").strip()
         if forth_place == "3":
-            print("Your choice is Stefan Cel Mare Central Park.\n")
-            print("Moldova's oldest and most impressive park is the 7-hectare Stefan Cel Mare Central Park, which is very popular with locals, especially during the summer months. Children's playgrounds make the park a particularly good choice for families. In other parts of the park, you can see busts of Moldovan and Romanian writers and political figures")    
+            print(f"Your choice is Stefan Cel Mare Central Park.\n", "Moldova's oldest and most impressive park is the 7-hectare Stefan Cel Mare Central Park, which is very popular with locals, especially during the summer months. Children's playgrounds make the park a particularly good choice for families. In other parts of the park, you can see busts of Moldovan and Romanian writers and political figures")    
         else:
             print("They are not ready.")
 
         fifth_place = input("Where to next? -> 5,6,8 (5): ").strip()
         if fifth_place == "5":
-            print("Your choice is Valea Morilor Park.\n")
-            print("Newlyweds often come here to take photos. But what makes the park special is that archaeological excavations have revealed that mammoths once lived here. Valea Morilor Park's most striking feature is the Pavilion and, immediately in front of it, the cascade of steps with flowing water, reminiscent of Pamukkale. The steps begin in front of the Pavilion and lead down to Komsomolsky Lake.")
+            print(f"Your choice is Valea Morilor Park.\n", "Newlyweds often come here to take photos. But what makes the park special is that archaeological excavations have revealed that mammoths once lived here. Valea Morilor Park's most striking feature is the Pavilion and, immediately in front of it, the cascade of steps with flowing water, reminiscent of Pamukkale. The steps begin in front of the Pavilion and lead down to Komsomolsky Lake.")
         else:
             print("They are not ready.")
 
         sixth_place = input("Where to next? -> 7,8 (7): ").strip()
         if sixth_place == "7":
-            print("Your choice is Comrat and you will go firstly Strada Lenin Street.\n")
-            print("Note1: Moldova is said to consist of three distinct regions. Gagauzia, or Gagauzia, as it is called, is one of Moldova's three regions. Following Moldova's independence in 1994, the Moldovan government granted Gagauzia special status.\n")
-            print("Note2: It takes two hours to get to Comrat from Chişinău, or vice versa.\n")
-            print("It's located in Comrat!, the capital of Gagauvia. Strada Lenin 197 is Comrat's largest street. You can see the government buildings here.")
+            print(f"Your choice is Comrat and you will go firstly Strada Lenin Street.\n", "Note1: Moldova is said to consist of three distinct regions. Gagauzia, or Gagauzia, as it is called, is one of Moldova's three regions. Following Moldova's independence in 1994, the Moldovan government granted Gagauzia special status.\n", "Note2: It takes two hours to get to Comrat from Chişinău, or vice versa.\n", "It's located in Comrat!, the capital of Gagauvia. Strada Lenin 197 is Comrat's largest street. You can see the government buildings here.")
         else:
             print("They are not ready.")
 
         seventh_place = input("Where to next? -> 6,8 (6): ").strip()
         if seventh_place == "6":
-            print("Your choice is Mustafa Kemal Atatürk Library.\n")
-            print("The library is located on Strada Lenin Street Street and There is a bust of Atatürk in the garden of the library.")
+            print(f"Your choice is Mustafa Kemal Atatürk Library.\n", "The library is located on Strada Lenin Street Street and There is a bust of Atatürk in the garden of the library.")
         else:
             print("They are not ready.")
 
@@ -229,16 +180,16 @@ def Travel():
             print("Right in the center of Comrat is Parcul Central. The yellow Orthodox church of Sankt Ioan Botezatorul is a standout. The park square also boasts numerous restaurants.\n")
             print("After visiting this place. In addition to these attractions:\n ")
             print("1. -> National History Museum of Moldova\n")
-            print(f"Opening Hourse: Close on Mondays but other days it is open between 10.00 - 18.00\n"
+            print(f"Opening Hours: Close on Mondays but other days it is open between 10.00 - 18.00\n"
                     "Entry fee: Adults -> 50 MDL, Pensioners, students -> 20 MDL, child -> 10 MDL")
             print("1. -> Pushkin Museum\n")
-            print(f"Opening Hourse: Close on Mondays but other days it is open between 10.00 - 19.00\n"
-                    "Entry fee: Adults -> 1000 MDL, 7-18 student -> 800 MDL\n")
+            print(f"Opening Hours: Close on Mondays but other days it is open between 10.00 - 19.00\n", "Entry fee: Adults -> 1000 MDL, 7-18 student -> 800 MDL\n")
         else:
             print("They are not ready.")
 
             print("You've finished visiting Chisinau. You can choose the next city.\n")
-            print("1. -> Tiraspol", "2. -> Balti", "3. -> Soroca")
+
+            print("1. -> Tiraspol", "2. -> Balti", "3. -> Soroca\n")
             next_city = input("Where to next? -> 1-3(1):\n ").strip()
 
             if next_city == "1":
@@ -389,18 +340,5 @@ def Travel():
         print("7. -> Zaporijya")
         print("8. -> Donetsk")
         city = input("Your choice for city? -> 2-8:(7)\n ").strip()
-
-
-
-
-
-
-
-
 Travel()
-
-
-
-
-
 
