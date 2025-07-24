@@ -28,7 +28,7 @@ register_user()
 def check_age():
     age = input("Enter your age: ").strip()
     try:
-        age= int(age)
+        age = int(age)
     except ValueError:
         print("Age must be an integer!")
         return
@@ -40,3 +40,13 @@ def check_age():
     print(f"Age is valid: {age}")
 
 check_age()
+
+
+def check_day():
+    day = input("Enter a day: ").strip()
+    days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+    if day not in days:
+        raise ValueError("Invalid day!") 
+    print(f"Day is: {day}")
+
+check_day()
