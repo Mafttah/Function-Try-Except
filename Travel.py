@@ -17,7 +17,7 @@ def Travel():
             print("1. East Europe (Russia, Ukranie, Poland, Lithuania, Latvia, Estonia, Moldova)")
             print("2. West Europe (England, Scotland, Wales, Ireland,Northern Ireland, France, Belgium, Netherland, Germany, Luxemburg)")
             print("3. Latin Countries (Spain, Portugal, Italy")
-            print("4. Scandinavian Countries (Norway, Sweden, Fınland)")
+            print("4. Scandinavian Countries (Norway, Sweden, Fınland, Denmark)")
             print("5. Middle Europe Czechia, Austria, Slovenia, Slovakia)")
             print("6. Balkans (Greece, Bulgaria, Romania, Montenegro, Makedonia, Serbia, Albania, Croatia, Hungary, Slovenia, Bosnia and Herzegovina)")
             part = input("What is your choice for part of Europe? -> 1,2,3,4,5,6:\n ").strip()
@@ -1309,7 +1309,7 @@ def Travel():
         second_place = input("Where do you want to start? -> 1-13(13):\n ").strip()
         if not second_place == "13":
             print("Your choice is Nezavisimosti Boulevard\n")
-            print("")
+            print("After nearly %80 of Minsk was destroyed in World War II, the city was rebuilt under Stalin's orders. One of the areas rebuilt with features resembling Art Deco is Nezavisimosti Boulevard, the heart of the city today. Stretching from the Red Church to Victory Square, the street houses restaurants, nightclubs, the City Council, the Post Office, the Gum Department Store, and the Palace of the Republic. Many of the buildings are adorned with sculptures, making them resemble works of art.\n")
         else:
             print("They are not ready.")
             break
@@ -1317,7 +1317,7 @@ def Travel():
         third_place = input("Where do you want to start? -> 1-12(7):\n ").strip()
         if not third_place == "7":
             print("Your choice is Losycki Park\n")
-            print("\n")
+            print("Located just a short distance from Minsk city center, Losycki Park is a popular destination with its deep history dating back to the 1800s. Boasting natural beauty and extensive walking paths, the park spans 100 hectares. The Manor House within is home to hundreds of plant species. Originally built for a duke, the park is today a wonderful place to visit for nature lovers and those interested in history. While the beautiful nature and hiking trails make this park famous, its true fame lies in the 19th-century mansion at its center. Surrounded by a thousand different plants and trees, the mansion, the only house on 100 hectares, is widely believed to be haunted. It is often said that the lady of the house peeks through the windows after dark, giving it a touch of mystery.\n")
         else:
             print("They are not ready.")
             break       
@@ -1325,7 +1325,7 @@ def Travel():
         forth_place = input("Where do you want to start? -> 2-12(10):\n ").strip()
         if not forth_place == "10":
             print("Your choice is Church of St. Simon and Helena\n")
-            print("\n")
+            print("The Church of Saints Simon and Helena, boasting the most beautiful architecture among Belarus's Catholic churches, is a significant religious landmark whose architecture bears the imprint of the country's symbols. Of course, despite having undergone restoration since its construction, it still retains its original splendor, captivating visitors. It's also known as the Red Church for its reddish exterior. Built in 1910, the church's unique blend of Gothic and Romanesque styles, with its red brick exterior, gives it a distinctive appearance. Located in the heart of Minsk, St. Simon's Church becomes even more impressive at sunset, its reddish facade illuminated by the sun, making it a fantastic destination for photography enthusiasts.\n")
         else:
             print("They are not ready.")
             break
@@ -1333,7 +1333,7 @@ def Travel():
         fifth_place = input("Where do you want to start? -> 1-12(2):\n ").strip()
         if not fifth_place == "2":   
             print("Your choice is Independence Square\n")
-            print("\n")
+            print("It's one of Minsk's most famous squares. It's also the square where you'll most often remember being in a country that broke away from the Soviet Union. With its giant buildings that make you feel tiny, the statue of Lenin in front of the parliament building, and its overall architecture, it truly evokes that era. If you're planning to photograph the statue in the square, you might want to be a bit careful. Some sources claim that taking photos of the statue is prohibited, while others say it used to be this way and that the city has grown accustomed to tourists.\n")
         else:
             print("They are not ready.")
             break
@@ -1341,7 +1341,7 @@ def Travel():
         sixth_place = input("Where do you want to start? -> 3-12(4):\n ").strip()
         if not sixth_place == "4":       
             print("Your choice is Kastrycnickaja Street - Ulitsa Oktyabr'skaya\n")
-            print("\n")
+            print("Kastrycnickaja Street is one of Minsk's liveliest and most colorful areas. This former industrial area has now become a hub of hipster culture. Surrounded by spacious cafes, restaurants, bars, and galleries, it's also adorned with large murals. Every corner on this street offers a new opportunity to explore art and the city. Filled with art galleries, stylish cafes, and street art, this street promises much more than just a casual stroll. You'll not only admire the murals, but also encounter numerous venues showcasing this art and experience the city's youthful energy.\n")
         else:  
             print("They are not ready.")
             break
@@ -1349,15 +1349,15 @@ def Travel():
         seventh_place = input("Where do you want to start? -> 3-12(6):\n ").strip()
         if not seventh_place == "6":
             print("Your choice is Oktyabrskaya Square\n")
-            print("\n")
+            print("This square, one of Minsk's most central locations, is a significant witness to the city's history. It's also known locally as October Square. Walking here, you'll experience both the traces of the Soviet era and the vibrant atmosphere of modern Minsk. Notable landmarks like the War Museum and Minsk Palace are located right around this square. Its small side streets also offer souvenir shops and cozy spots for a hot cup of coffee. You'll instantly recognize this square thanks to its popular landmarks, such as the War Museum and Minsk Palace, and its backstreets are also home to some stylish coffee shops and souvenir boutiques. A short stroll through this square is a must-see destination for history and architecture enthusiasts. At the War Museum, you can discover Belarusian heroic stories, and in the surrounding streets, you'll find local handicrafts and unique souvenirs.\n")
         else:
             print("They are not ready.")
             break
 
         eighth_place = input("Where do you want to start? -> 3-12(8):\n ").strip()
-        if not eighth_place == "":
+        if not eighth_place == "8":
             print("Your choice is Gorky Park - Park Horkaha\n")
-            print("\n")
+            print("The park, reminiscent of the Cold War, is truly beautiful, with recreational facilities and a pond. Opened to the public in the 1800s, the park also features an amusement park with a Ferris wheel, which has become synonymous with the area.\n")
         else:
             print("They are not ready.")
             break   
@@ -1365,7 +1365,7 @@ def Travel():
         ninth_place = input("Where do you want to start? -> 5-12(3):\n ").strip()
         if not ninth_place == "3":
             print("Your choice is Victory Square\n")
-            print("\n")
+            print("In many parts of Belarus, you can find places dedicated to wars, soldiers, and victories. One of these is Victory Square, a prominent landmark in the city. Located at the intersection of Independence Avenue and Zakharau Street, Victory Square and its Monument are among the most symbolic landmarks seen in Belarusian photographs. Located in the center of the square, the Victory Monument, a 38-meter-tall stone column, is always the center of demonstrations on important national holidays.\n")
         else:
             print("They are not ready.")
             break
@@ -1373,7 +1373,7 @@ def Travel():
         tenth_place = input("Where do you want to start? -> 5-12(5):\n ").strip()    
         if not tenth_place == "5":
             print("Your choice is Holy Spirit Cathedral\n")
-            print("\n")
+            print("Built on a square overlooking Minsk, the Holy Spirit Cathedral is a major attraction for locals, as well as a popular tourist destination. Minsk residents visit throughout the day, and photography is prohibited inside the church. The church is the only remaining structure from the pre-World War II complex, which included a monastery and a church. Numerous bars and restaurants surround the square, and a small statue stands in the center. Once a popular spot for merchants selling goods, the belief is that if you touch a purse filled with gold, your wallet will be filled with money. Summer is also a time when Minsk's nightlife is vibrant. The former Catholic church on the square has been converted into a concert hall. Another of the beautiful buildings on Minsk's Cathedral Square is the Minsk City Hall.\n")
         else:
             print("They are not ready.")
             break
@@ -1389,7 +1389,7 @@ def Travel():
         twelfth_place = input("Where do you want to start? -> 9-12(12):\n ").strip()
         if not twelfth_place == "12": 
             print("Your choice is Island of Tears\n")
-            print("\n")
+            print("It's dedicated to the soldiers who served in the Afghanistan War between 1979 and 1989, and to the mothers, sisters, and wives who awaited their return. In the middle of the statues is a small chapel, surrounded by 40 arrows. These arrows represent forty of those killed. There's also a small statue of an angel with his hand over his face, symbolically dripping tears. When this monument was built, a willow tree was planted here, with the message: No Belarusian man will ever die in war again. That willow tree is still there, and Belarus has not fought a war since 1989.\n")
         else:
             print("They are not ready.")
             break
@@ -1397,7 +1397,7 @@ def Travel():
         thirteenth_place = input("Where do you want to start? -> 9-11(9):\n ").strip()
         if not thirteenth_place == "9":
             print("Your choice is Prospect Niezależności\n")
-            print("\n")
+            print("One of Minsk's most well-known streets, it's one of the city's busiest and most popular routes, stretching 15 km. This street, frequently visited by both locals and tourists, offers a wealth of shopping, dining, and attractions. Filled with stylish restaurants, boutiques, and cultural venues, this street is located in the heart of Minsk and is a must-see destination for those exploring the city. Popular with both locals and tourists, the street is packed with stylish restaurants, particularly those serving Minsk cuisine, making it a popular choice for dining at many times of the day. You can also enjoy shopping in Minsk at the numerous shopping spots along the street, including souvenirs for loved ones.\n")
         else:
             print("They are not ready.")
             break
@@ -1405,7 +1405,8 @@ def Travel():
         fourteenth_place = input("Where do you want to start? -> 11(11):\n ").strip()
         if not fourteenth_place == "11":
             print("Your choice is War History Museum\n")
-            print("\n")
+            print("Belarus, a place that waged a great struggle against the Nazis, is a country that has achieved its present through immense sacrifice. Located in the capital, Minsk, the Museum of the Great Patriotic War welcomes visitors with over 142,000 items, making it one of the city's largest museums. It is the only museum that reveals Belarus's painful history, both recent and ancient, through documents and excavations. It can be said to be the first and only museum that offers the most comprehensive and comprehensive account of the country's history. The museum, which showcases the Nazi attacks and massacres in Belarus, brings to life Belarus's history from 1942 to the present. The depiction of the people's courage, as well as the tragedies they endured, is so realistic that it's impossible not to be transported back to that moment. Military equipment, weapons, and written artifacts aside, the handwritten books and other valuable artifacts unearthed during archaeological excavations are another area of considerable interest.\n")
+            print("The palace is open to the public, and the entrance fee is 40 PLN. Apart form Monday The palace is open from 10:00 AM to 6:00 PM, and the last entry is at 5:30 PM.\n")
         else:
             print("They are not ready.")
             break
@@ -1435,90 +1436,120 @@ def Travel():
 
         print("You chose Vilnius. It takes 4 hours by car. So you can choose a place to start your travel:\n")
 
-        print("3. -> Literatų Gatve**")
-        print("4. -> Bernardinai Garden**")
-        print("5. -> Trys Kryziai – Three Crosses Monument**")
-        print("6. -> St. Anne’s Church**")
-        print("7. -> Church of St. Peter and St. Paul**")
-        print("3. -> Palace of Grand Dukes of Lithuania**")
-        print("4. -> Vilnius Cathedral**")
-        print("5. -> Gediminas' Tower**")
-        print("6. -> Senamiestis**")
-        print("7. -> National Museum of Lithuania**")
-        print("8. -> Gediminas' Avenue**")
-        print("9. -> Pillies Gatve**")
-        print("10. -> Cathedral Square**\n")
+        print("1. -> Literatų Gatve")
+        print("2. -> Bernardinai Garden")
+        print("3. -> Trys Kryziai – Three Crosses Monument")
+        print("4. -> St. Anne’s Church")
+        print("5. -> Church of St. Peter and St. Paul")
+        print("6. -> Palace of Grand Dukes of Lithuania")
+        print("7. -> Vilnius Cathedral")
+        print("8. -> Gediminas' Tower")
+        print("9. -> Senamiestis")
+        print("10. -> National Museum of Lithuania")
+        print("11. -> Gediminas' Avenue")
+        print("12. -> Pillies Gatve")
+        print("13. -> Cathedral Square\n")
 
-        place = input("Your choice for start place? -> (): \n ").strip()
-        if not place == "":
-            print("They are not ready.")
-            break
-
-        second_place = input("Your choice for start place? -> (): \n ").strip()
-        if not second_place == "":
-            print("They are not ready.")
-            break
-
-        third_place = input("Your choice for start place? -> (): \n ").strip()
-        if not third_place == "":
-            print("Your choice is Trys Kryziai – Three Crosses Monument\n")
-            print("\n")
-        else:
-            print("They are not ready.")
-            break
-
-        forth_place = input("Your choice for start place? -> (): \n ").strip()
-        if not forth_place == "":
-            print("Your choice is St. Anne’s Church\n")
-            print("\n")
-        else:
-            print("They are not ready.")
-            break
-
-        fifth_place = input("Your choice for start place? -> (): \n ").strip()
-        if not fifth_place == "":
+        place = input("Your choice for start place? -> 1-13(5): \n ").strip()
+        if not place == "5":
             print("Your choice is Church of St. Peter and St. Paul\n")
-            print("\n")
+            print("Built in 1701, the Church of St. Peter and St. Paul is a Roman Catholic church located in the Antakalnis district. It is considered a masterpiece of the Polish-Lithuanian Commonwealth Baroque.\n")
         else:
             print("They are not ready.")
             break
 
-        sixth_place = input("Your choice for start place? -> (): \n ").strip()
-        if not sixth_place == "":
+        second_place = input("Your choice for start place? -> 1-13(3): \n ").strip()
+        if not second_place == "3":
+            print("Your choice is Trys Kryziai (Three Crosses Monument)\n")
+            print("The Three Crosses Monument was erected in 1916 in memory of seven priests tortured by pagans before Lithuania adopted Christianity. This monument, which symbolizes the importance of Christianity in Lithuania, was destroyed by the USSR in 1950 and later rebuilt in 1989.\n")
+        else:
+            print("They are not ready.")
+            break
+
+        third_place = input("Your choice for start place? -> 1-13(8): \n ").strip()
+        if not third_place == "8":
+            print("Your choice is Gediminas' Tower\n")
+            print("Located in the Upper Castle complex, Gediminas Tower currently serves as a museum and observation deck. Various objects are exhibited on different levels of the tower. A short documentary film on Lithuanian history is also shown here. This tower, the only remaining structure from Vilnius Castle, offers visitors a panoramic view of the city from above. Accessible on foot or by funicular, the tower offers a bird's-eye view of Vilnius.\n")
+        else:
+            print("They are not ready.")
+            break
+
+        forth_place = input("Your choice for start place? -> 1-13(13): \n ").strip()
+        if not forth_place == "13":
+            print("Your choice is Cathedral Square\n")
+            print("Cathedral Square, located in the heart of Vilnius, is not just a tourist attraction; it's a symbolic site where events that shaped Lithuania's history unfolded. After the country gained independence from the Soviets, people began gathering here to celebrate special occasions and ceremonies. Today, crowds still gather here on national holidays. The square's most striking structure is the Vilnius Cathedral, with its massive columns. It is both captivating in its architecture and a testament to Lithuania's Christian past. In front of the cathedral stands the Grand Duke Gediminas Monument. The statue shows Gediminas proudly mounted on his horse, holding a sword in his hand, and flanked by an eagle, symbolizing Lithuania's power and freedom. Erected in 1996, this bronze monument is not only a work of art but also a symbol of national identity. Gediminas was the founder of Vilnius and the leader who transformed Lithuania into a powerful state. The monument is a moving expression of the people's respect for its past.\n")
+        else:
+            print("They are not ready.")
+            break
+
+        fifth_place = input("Your choice for start place? -> 1-12(6): \n ").strip()
+        if not fifth_place == "6":
             print("Your choice is Palace of Grand Dukes of Lithuania\n")
-            print("\n")
+            print("The palace was originally constructed of brick in the 1300s and later rebuilt in the Renaissance style in the 1500s. Renovated and expanded in various styles in subsequent periods, the palace was destroyed by Tsarist Russian forces in 1801. The Lithuanian Royal Palace, renovated after 2001, is part of the former Lower Castle and one of Vilnius's most important historical buildings.\n")
         else:
             print("They are not ready.")
             break
 
-        seventh_place = input("Your choice for start place? -> (): \n ").strip()
-        if not seventh_place == "":
+        sixth_place = input("Your choice for start place? -> 1-12(7): \n ").strip()
+        if not sixth_place == "7":
             print("Your choice is Vilnius Cathedral\n")
-            print("\n")
+            print("Vilnius Cathedral was originally built as a church on the site of a pagan temple in 1251. The current structure was largely constructed in the 18th century. The cathedral's most magnificent feature is the St. Casimir Chapel. The cathedral was closed during the Soviet era but was used for a time as a repair shop and, from 1956 on, as a picture gallery.\n")
+        else:
+            print("They are not ready.")
+            break
+
+        seventh_place = input("Your choice for start place? -> 1-12(2): \n ").strip()
+        if not seventh_place == "2":
+            print("Your choice is Bernardinai Garden\n")
+            print("The Bernardinai Garden is adjacent to the Three Crosses Monument, but the Vilnia River flows between them. This garden is said to be the city's oldest park and its oldest botanical garden.\n")
         else:
             print("They are not ready.")
             break   
 
-        eighth_place = input("Your choice for start place? -> (): \n ").strip()
-        if not eighth_place == "":  
-            print("Your choice is Gediminas' Tower\n")
-            print("\n") 
+        eighth_place = input("Your choice for start place? -> 1-12(4): \n ").strip()
+        if not eighth_place == "4":  
+            print("Your choice is St. Anne’s Church\n")
+            print("It's one of the most beautiful churches in Vilnius. Its Gothic architecture sets it apart from other churches in the city. The church's final design is said to have been designed by architect Benedikt Rejt, who also had a hand in Prague Castle. Napoleon, who visited the church in 1812, was so impressed with the building that he reportedly wanted to take it to Paris.\n") 
         else:
             print("They are not ready.")
             break
 
-        ninth_place = input("Your choice for start place? -> (): \n ").strip()
-        if not ninth_place == "":
+        ninth_place = input("Your choice for start place? -> 1-12(12): \n ").strip()
+        if not ninth_place == "12":
+            print("Your choice is Pillies Gatve\n")
+            print("A short walk from Cathedral Square brings you to Pilies, one of the main streets of the Old Town. This street is also known as Vilnius's oldest. In the past (and we're talking about a very long time ago), this road was used to reach Vilnius Castle and was home to wealthy, noble families. While it may not hold as much significance today, it remains one of Vilnius's most well-known streets. You'll find cafes, shops selling souvenirs and artifacts, and restaurants nearby. You'll also find plenty of amber jewelry and artifacts here.\n")
+        else:
+            print("They are not ready.")
+            break
+
+        tenth_place = input("Your choice for start place? -> 1-11(1): \n ").strip()
+        if not tenth_place == "1":
+            print("Your choice is Literatų Gatve\n")
+            print("On the street wall here, writers and translators important to Lithuanian and world literature are depicted with symbols made of ceramics, glass, sculpture, and wall paint. The street also houses small galleries and cafes.\n")
+        else:
+            print("They are not ready.")
+            break
+
+        eleventh_place = input("Your choice for start place? -> 9-11(9): \n ").strip()
+        if not eleventh_place == "9":
             print("Your choice is Senamiestis\n")
-            print("\n")
+            print("Vilnius's Old Town (Senamiestis) is a UNESCO World Heritage Site. Small shops along the narrow streets sell souvenirs like amber jewelry and wood carvings, as well as Lithuanian cheese. The area is filled with bars, clubs, and restaurants serving international cuisine.\n")
         else:
             print("They are not ready.")
             break
 
-        tenth_place = input("Your choice for start place? -> (): \n ").strip()
-        if not tenth_place == "":
+        twelfth_place = input("Your choice for start place? -> 10-11(11): \n ").strip()
+        if not twelfth_place == "11":
+            print("Your choice is Gediminas' Avenue\n")
+            print("Gedimino Prospektas is one of the city's most important streets. The kilometre-long avenue is lined with cafes, restaurants, a theatre, shopping malls, luxury shops, various monuments, luxury hotels, the Parliament, and Lukiškių Park.\n")
+        else:
+            print("They are not ready.")
+            break
+
+        thirteenth_place = input("Your choice for start place? -> 10(10): \n ").strip()
+        if not thirteenth_place == "10":
             print("Your choice is National Museum of Lithuania\n")
-            print("\n")
+            print("It is said to be the largest depository of Lithuania's historical and cultural heritage. Its history dates back to 1855. This museum is the oldest in Lithuania. Its exhibitions reflect authentic Lithuanian culture and history. The museum is said to host an average of 275,000 visitors annually. In 1253, Mindaugas was crowned king, thus securing Lithuania's territorial integrity. A statue of Mindaugas was erected in the museum's front garden in 2003.\n")
         else:
             print("They are not ready.")
             break
@@ -1535,39 +1566,39 @@ def Travel():
 
         print("You chose Trakai. It takes 30 minutes by car. So you can choose a place to start your travel:\n")
 
-        print("1. -> Island Castle**")
-        print("2. -> Peninsula Castle**")
-        print("3. -> Karaimų Street**")
-        print("4. -> Trakai National Park**\n")
+        print("1. -> Trakai Castle - Island Castle")
+        print("2. -> Peninsula Castle")
+        print("3. -> Karaimų Street")
+        print("4. -> Trakai National Park\n")
 
-        place = input("Your choice for start place? -> 1-4(1): \n ").strip()
-        if not place == "1":
-            print("Your choice is Island Castle\n")
-            print("\n")
-        else:
-            print("They are not ready.")
-            break
-
-        second_place = input("Your choice for start place? -> 2-4(2): \n ").strip()
-        if not second_place == "2":
+        place = input("Your choice for start place? -> 1-4(2): \n ").strip()
+        if not place == "12":
             print("Your choice is Peninsula Castle\n")
-            print("\n")
+            print("Trakai Peninsula Castle was built in the 14th century and used as a residence by two grand dukes. The castle was destroyed during the Russian and Swedish invasions in the 17th century, but much of it was later rebuilt for tourist purposes. Peninsula Castle covers a large area on the shores of Lake Bernardinai. You can walk around the castle walls from the lakeside.\n")
         else:
             print("They are not ready.")
             break
 
-        third_place = input("Your choice for start place? -> 3-4(3): \n ").strip()
+        second_place = input("Your choice for start place? -> 1-4(4): \n ").strip()
+        if not second_place == "2":
+            print("Your choice is Trakai National Park\n")
+            print("Trakai National Park, home to Trakai Castle, is a tourist attraction. One of Lithuania's five national parks, Trakai National Park is a breathtaking natural wonder. Trakai Castle is an island castle. Located in the middle of Lake Galve, offering stunning views of the surrounding area, the castle is also known as Little Malbork due to its resemblance to Malbork Castle in Poland. Construction was initially begun by Duke Kestutis of Trakai in the 14th century, but much of the structure was completed by his son Vytautas. Strategically situated, Trakai Castle lost its strategic importance after the Battle of Grunwald between the Polish and Lithuanian kingdoms in 1410. Destroyed in the following years, the castle was rebuilt and opened to tourism in the mid-20th century. To enter the castle from Trakai, you must cross a 100-meter-long wooden bridge built over Lake Galve. You can capture stunning shots using the bridge, which offers stunning views from every angle of the castle.\n")
+        else:
+            print("They are not ready.")
+            break
+
+        third_place = input("Your choice for start place? -> 1-3(3): \n ").strip()
         if not third_place == "3":
             print("Your choice is Karaimų Street\n")
-            print("\n")
+            print("Karaimų Street is a settlement area for Karaimų Turks today, just as it was in the past. Unfortunately, the colorful Karaim houses on Karaimų Street have largely lost their former character. Consequently, you'll see very few houses with three windows on their facades.\n")
         else:
             print("They are not ready.")
             break
 
-        forth_place = input("Your choice for start place? -> 4(4): \n ").strip()
+        forth_place = input("Your choice for start place? -> 1(1): \n ").strip()
         if not forth_place == "4":
-            print("Your choice is Trakai Castle\n")
-            print("\n")
+            print("Your choice is Trakai Castle - Island Castle\n")
+            print("Trakai, with its historic castle and the Karaite Turkic homeland, offers a delightful exploration for those exploring the Baltic region. The Karaite Turkic history, along with their shared cuisine and their status as a Jewish Turkish community, is intriguing. Developing as a distinct sect of Judaism within the Khazar Empire, the Karaites are the only Turkic people to have embraced Judaism. The Karaites settled in Lithuania in the late 14th century, and they maintain their presence in the region because they were appointed to important roles as castle keepers. Lithuania, too, is making significant efforts to preserve this culture today. Despite living in many different parts of the world (Crimea, Istanbul, Israel, etc.), Trakai has become a cultural center thanks to the status they have gained since their arrival. Despite their small population, they have preserved their language and managed to preserve their culture. To experience this endangered culture firsthand and learn about its history, you can visit their Trakai Castle. Each room in the castle has been utilized in different ways. The castle houses a conference hall and various exhibition areas, while some rooms are used as museums. These rooms also house artifacts unearthed during excavations conducted after the 1900s.\n")
         else:
             print("They are not ready.")
             break
@@ -1589,36 +1620,42 @@ def Travel():
         print("4. -> Laisvės Alėja")
         print("5. -> St. Francis Xavier Church\n")
 
-        place = input("Your choice for start place? -> (): \n ").strip()
-        if not place == "":
-            print("They are not ready.")
-            break
-
-        second_place = input("Your choice for start place? -> (): \n ").strip()
-        if not second_place == "":
-            print("They are not ready.")
-            break
-
-        third_place = input("Your choice for start place? -> (): \n ").strip()
-        if not third_place == "":
-            print("Your choice is Trys Kryziai – Three Crosses Monument\n")
-            print("\n")
+        place = input("Your choice for start place? -> 1-5(4): \n ").strip()
+        if not place == "4":
+            print("Your choice is Laisvės Alėja\n")
+            print("Laisvas aleja is a pedestrianized street in Kaunas. A charming street, Laisvas aleja is home to restaurants, cafes, bars, shops, and local businesses. It has a unique style, a unique atmosphere, a clear layout, and good connections to other streets. With its iconic buildings and sectors, this street is considered a true example of urban planning.\n")
         else:
             print("They are not ready.")
             break
 
-        forth_place = input("Your choice for start place? -> (): \n ").strip()
-        if not forth_place == "":
-            print("Your choice is St. Anne’s Church\n")
-            print("\n")
+        second_place = input("Your choice for start place? -> 1-5(3): \n ").strip()
+        if not second_place == "3":
+            print("Your choice is The Interwar years Presidential Palace\n")
+            print("This elegant palace, located in the heart of Vilnius, holds a special place in Lithuania's struggle for independence and in its national memory. During the period between World War I and World War II, the country's presidents served in this building, marking the country's first years of independence. Therefore, it is also known as the Interwar Years Presidential Palace. Today, the palace serves as an extension of the M. K. Čiurlionis National Museum of Art. Both its architecture and its exhibits offer visitors insights into Lithuania's cultural and political past.\n")
         else:
             print("They are not ready.")
             break
 
-        fifth_place = input("Your choice for start place? -> (): \n ").strip()
-        if not fifth_place == "":
-            print("Your choice is Church of St. Peter and St. Paul\n")
-            print("\n")
+        third_place = input("Your choice for start place? -> 1-5(1): \n ").strip()
+        if not third_place == "1":
+            print("Your choice is Vilniaus Street\n")
+            print("Vilnianus Street is located in the heart of Kaunas's historic city center. In addition to the historical buildings that are already very important to Kaunas, it also houses various cafes and restaurants. A less prominent historical structure on Vilnianus Street is the God's Body Church, also known as Kaunas Corpus Christi. The three towers and various sections of the Baroque God's Body Church were destroyed during the Soviet era. Today, only the facade of this beautiful church remains.\n")
+        else:
+            print("They are not ready.")
+            break
+
+        forth_place = input("Your choice for start place? -> 2-5(5): \n ").strip()
+        if not forth_place == "5":
+            print("Your choice is St. Francis Xavier Church\n")
+            print("One of the famous temples in Kaunas's Old Town, this Jesuit church is said to have been handed over to the Orthodox and later given to the Catholics. Located near the Rathaus (City Hall), the church has a modest interior and a tranquil atmosphere.\n")
+        else:
+            print("They are not ready.")
+            break
+
+        fifth_place = input("Your choice for start place? -> 2(2): \n ").strip()
+        if not fifth_place == "2":
+            print("Your choice is Kaunas Castle\n")
+            print("Kaunas Castle is considered one of the oldest stone castles in Lithuania. Archaeological research indicates that it was built in the 14th century in the Gothic architectural style. This impressive structure is located at a strategic point at the confluence of the Nemunas and Neris rivers, providing a natural defensive advantage. For this reason, the castle has held great importance for both Lithuanians and various foreign powers throughout history. This location made it a target for invading armies such as the Teutonic Knights for centuries. In particular, it was besieged by the Teutonic Knights in 1362 and largely destroyed. Although only a portion of the castle survives today, the surviving walls and towers still bear traces of its past. Today, Kaunas Castle serves as a center for cultural events, open-air concerts, and festivals. Inside the castle is a small exhibition area, which occasionally hosts temporary art exhibitions.\n")
         else:
             print("They are not ready.")
             break
@@ -1637,31 +1674,35 @@ def Travel():
         print("2. -> Jonas Basanavicius Street")
         print("3. -> Seaside Park\n")
 
-        place = input("Your choice for start place? -> (): \n ").strip()
-        if not place == "":
-            print("They are not ready.")
-            break
-
-        second_place = input("Your choice for start place? -> (): \n ").strip()
-        if not second_place == "":
-            print("They are not ready.")
-            break
-
-        third_place = input("Your choice for start place? -> (): \n ").strip()
-        if not third_place == "":
-            print("Your choice is Trys Kryziai – Three Crosses Monument\n")
-            print("\n")
+        place = input("Your choice for start place? -> 1-3(3): \n ").strip()
+        if not place == "3":
+            print("Your choice is Seaside Park\n")
+            print("Located on the shores of the Baltic Sea, the park is perfect for those seeking a peaceful escape from the hustle and bustle of the city. Established to protect the Baltic Sea's biodiversity and marine rock beds, the park, spread across 5,602 hectares, is a magnificent excursion destination. You can also enjoy a pleasant stroll or sip a coffee while admiring the stunning Palanga sunset.\n")
         else:
             print("They are not ready.")
             break
 
-        print("You have finished visiting Palanga. You can choose the next country.\n")
+        second_place = input("Your choice for start place? -> 1-2(1): \n ").strip()
+        if not second_place == "1":
+            print("Your choice is Tyszkiewicz Palace\n")
+            print("Built for the Tyszkiewicz family, the palace has been one of the city's most important tourist attractions since 1897. Located in a garden filled with rare plant species, a pond, and fountains, the palace has become a symbol of Palanga.\n")
+        else:
+            print("They are not ready.")
+            break
+
+        third_place = input("Your choice for start place? -> 2(2): \n ").strip()
+        if not third_place == "2":
+            print("Your choice is Jonas Basanavicius Street\n")
+            print("Known as one of Palanga's most important streets and one of the city's oldest centers, this street, a must-see during your visit to Palanga, is home to numerous historic buildings, cafes, restaurants, and shops. A cultural heritage site protected by the Lithuanian government, the street was formerly known as Tyshkevich Street but later became known in honor of the country's founder, Dr. Jonas Basanavicius.\n")
+        else:
+            print("They are not ready.")
+            break
 
         while True:
             print("3. Russia")
             print("4. Estonia")
             print("8. Latvia")
-            country = input("You have finished travelling Belarus. You can choose other country. Where to next? -> 3-8(8):\n ").strip()
+            country = input("You have finished travelling Lithuania. You can choose other country. Where to next? -> 3-8(8):\n ").strip()
             if not country == "8":
                 print("They are not ready.")
                 break
@@ -1670,6 +1711,571 @@ def Travel():
 
         print("1. -> Riga")
         print("2. -> Sigulda\n")
+
+        city = input("Your choice for city? -> 1-2(1): \n ").strip()
+        if not city == "1":
+           print("They are not ready.")
+           break
+
+        print("You chose Riga. It takes 5 hours by car. So you can choose a place to start your travel:\n")
+
+        print("1. -> Vecrīga / Old Town**")
+        print("2. -> St. Peter's Church**")
+        print("3. -> Riga Dome Cathedral**")
+        print("4. -> Riga Castle - Rigas Pils**")
+        print("5. -> Bastelkanj Park**")
+        print("6. -> Vermanes Park**")
+        print("7. -> House of the Blackheads ve Town Square - Rīgas Rātslaukums\n")
+
+        place = input("Your choice for start place? -> 1-7(7): \n ").strip()
+        if not place == "7":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        second_place = input("Your choice for start place? -> 1-6(2): \n ").strip()
+        if not second_place == "2":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        third_place = input("Your choice for start place? -> 1-6(1): \n ").strip()
+        if not third_place == "1":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        forth_place = input("Your choice for start place? -> 3-6(3): \n ").strip()
+        if not forth_place == "3":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        fifth_place = input("Your choice for start place? -> 4-6(4): \n ").strip()
+        if not fifth_place == "4":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        sixth_place = input("Your choice for start place? -> 5-6(5): \n ").strip()
+        if not sixth_place == "5":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        seventh_place = input("Your choice for start place? -> 6(6): \n ").strip()
+        if not seventh_place == "6":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break   
+
+        print("You have finished visiting Riga. You can choose the next city.\n")
+
+        print("2. -> Sigulda\n")
+
+        city = input("Your choice for city? -> 1-2(1): \n ").strip()
+        if not city == "1":
+           print("They are not ready.")
+           break
+
+        print("You chose Sigulda. It takes 2 hours by car. So you can choose a place to start your travel:\n")
+
+        print("1. -> Sigulda Castle")
+        print("2. -> Castle of Livonian Order in Sigulda\n")
+
+        place = input("Your choice for start place? -> 1-2(1): \n ").strip()
+        if not place == "1":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        second_place = input("Your choice for start place? -> 2(2): \n ").strip()
+        if not second_place == "2":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        print("3. Russia")
+        print("4. Estonia")
+        country = input("You have finished travelling Latvia. You can choose other country. Where to next? -> 3-4(4):\n ").strip()
+        if not country == "4":
+            print("They are not ready.")
+            break
+
+        print("Your choice is Estonia. Please choose a city:\n ")
+
+        print("1. -> Tallin")
+        print("2. -> Parnu\n")
+
+        city = input("Your choice for city? -> 1-2(2): \n ").strip()
+        if not city == "2":
+           print("They are not ready.")
+           break
+
+        print("You chose Parnu. It takes 4 hours by car. So you can choose a place to start your travel:\n")
+
+        print("1. -> Jekaterina Church")
+        print("2. -> Red Tower\n")
+
+        place = input("Your choice for start place? -> (): \n ").strip()
+        if not place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        second_place = input("Your choice for start place? -> (): \n ").strip()
+        if not second_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        print("1. -> Tallin\n")
+        city = input("Your choice for city? -> 1(1): \n ").strip()
+        if not city == "1":
+           print("They are not ready.")
+           break
+
+        print("You chose Tallin. It takes 3 hours by car. So you can choose a place to start your travel:\n")
+
+        print("1. -> Alexander Nevsky Cathedral")
+        print("2. -> Old Town")
+        print("3. -> Town Hall Square")
+        print("4. -> Freedom Square ")
+        print("5. -> Toompea Castle")
+        print("6. -> Kadriorg Palace")
+        print("7. -> Toompark")
+        print("8. -> St Olaf’s Church\n")
+
+        print("3. Russia")
+        country = input("You have finished travelling Estonia. You can choose other country. Where to next? -> 3(3):\n ").strip()
+        if not country == "3":
+            print("They are not ready.")
+            break
+
+        print("Your choice is Russia. Please choose a city:\n ")
+
+        print("1. -> Kazan")
+        print("2. -> St. Petersburg")
+        print("3. -> Moscova")
+        print("4. -> Krasnodar")
+        print("5. -> Stavropol\n")
+
+        city = input("Your choice for city? -> 1-5(2): \n ").strip()
+        if not city == "2":
+           print("They are not ready.")
+           break
+
+        print("You chose St. Petersburg. It takes 7 hours by car. So you can choose a place to start your travel:\n")
+
+        print("1. -> Aziz Isaac Square")
+        print("2. -> Catherine Palace")
+        print("3. -> Nevsky Prospekt")
+        print("4. -> Yusupov Palace")
+        print("5. -> Peterhof Palace")
+        print("6. -> Nevski Boulvard\n")
+
+        place = input("Your choice for start place? -> (): \n ").strip()
+        if not place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        second_place = input("Your choice for start place? -> (): \n ").strip()
+        if not second_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        third_place = input("Your choice for start place? -> (): \n ").strip()
+        if not third_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        forth_place = input("Your choice for start place? -> (): \n ").strip()
+        if not forth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        fifth_place = input("Your choice for start place? -> (): \n ").strip()
+        if not fifth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        sixth_place = input("Your choice for start place? -> (): \n ").strip()
+        if not sixth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        print("You have finished visiting St. Petersburg. You can choose the next city.\n")
+
+        print("1. -> Kazan")
+        print("3. -> Moscova")
+        print("4. -> Krasnodar")
+        print("5. -> Stavropol\n")
+
+        city = input("Your choice for city? -> 1-5(3): \n ").strip()
+        if not city == "3":
+           print("They are not ready.")
+           break
+
+        print("You chose Moscova. It takes 7 hours by car. So you can choose a place to start your travel:\n")
+
+        print("1. -> Red Square")
+        print("2. -> Hermitage Garden")
+        print("3. -> Arbat Street")
+        print("4. -> Kremlin Palace")
+        print("5. -> Tverskaya Street")
+        print("6. -> Petrovka Street")
+        print("7. -> Zaryadye Park")
+        print("8. -> Alexander Garden")
+        print("9. -> Tsaritsyno Park")
+        print("10. -> Kazan Cathedral")
+        print("11. -> Granovitaya Palata")
+        print("12. -> Gorki Park")
+        print("13. -> State History Museum")
+        print("14. -> Sparrow Hills")
+        print("15. -> Facets Palace")
+        print("16. -> Sokolniki Park")
+        print("17. -> Saint Basil’s Cathedral")
+        print("18. -> Cathedral of Christ the Saviour")
+        print("19. -> Kolomenskoye\n")
+
+        place = input("Your choice for start place? -> (): \n ").strip()
+        if not place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        second_place = input("Your choice for start place? -> (): \n ").strip()
+        if not second_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+        third_place = input("Where do you want to start? -> ():\n ").strip()
+        if not third_place == "":
+            print("Your choice is \n")
+            print("\n")
+            break
+
+        forth_place = input("Where do you want to start? -> ():\n ").strip()
+        if not forth_place == "":
+            print("Your choice is \n")
+            print("\n")
+            break
+
+        fifth_place = input("Where do you want to start? -> ():\n ").strip()
+        if fifth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        sixth_place = input("Where do you want to start? -> ():\n ").strip()
+        if sixth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        seventh_place = input("Where do you want to start? -> ():\n ").strip()
+        if seventh_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        eighth_place = input("Where do you want to start? -> ():\n ").strip()
+        if eighth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        ninth_place = input("Where do you want to start? -> ():\n ").strip()
+        if ninth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        tenth_place = input("Where do you want to start? -> ():\n ").strip()
+        if tenth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        eleventh_place = input("Where do you want to start? -> ():\n ").strip()
+        if eleventh_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        twelfth_place = input("Where do you want to start? -> ():\n ").strip()
+        if twelfth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        thirteenth_place = input("Where do you want to start? -> ():\n ").strip()
+        if thirteenth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        fourteenth_place = input("Where do you want to start? -> ():\n ").strip()
+        if fourteenth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        fifteenth_place = input("Where do you want to start? -> ():\n ").strip()
+        if fifteenth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        sixteenth_place = input("Where do you want to start? -> ():\n ").strip()
+        if sixteenth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        seventeenth_place = input("Where do you want to start? -> ():\n ").strip()
+        if seventeenth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        eighteenth_place = input("Where do you want to start? -> ():\n ").strip()
+        if eighteenth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        ninteenth_place = input("Where do you want to start? -> ():\n ").strip()
+        if ninteenth_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        print("You have finished visiting Moscova. You can choose the next city.\n")
+
+        print("1. -> Kazan")
+        print("4. -> Krasnodar")
+        print("5. -> Stavropol\n")
+
+        city = input("Your choice for city? -> 1-4(1): \n ").strip()
+        if not city == "1":
+           print("They are not ready.")
+           break
+
+        print("You chose Kazan. It takes 6 hours by car. So you can choose a place to start your travel:\n")
+
+        print("1. -> Suyumbike Tower")
+        print("2. -> Kazan Kremlin")
+        print("3. -> Bauman Street")
+        print("4. -> Milenyum Park\n")
+
+        place = input("Your choice for start place? -> (): \n ").strip()
+        if not place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        second_place = input("Your choice for start place? -> (): \n ").strip()
+        if not second_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        third_place = input("Where do you want to start? -> ():\n ").strip()
+        if not third_place == "":
+            print("Your choice is \n")
+            print("\n")
+            break
+
+        forth_place = input("Where do you want to start? -> ():\n ").strip()
+        if not forth_place == "":
+            print("Your choice is \n")
+            print("\n")
+            break
+
+        print("You have finished visiting Kazan. You can choose the next city.\n")
+
+        print("4. -> Krasnodar")
+        print("5. -> Stavropol\n")
+
+        city = input("Your choice for city? -> 4-5(5): \n ").strip()
+        if not city == "5":
+           print("They are not ready.")
+           break
+
+        print("You chose Stavropol. It takes 11 hours by car. So you can choose a place to start your travel:\n")
+
+        print("1. -> Central Park")
+        print("2. -> Victory Park\n")
+
+        place = input("Your choice for start place? -> (): \n ").strip()
+        if not place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        second_place = input("Your choice for start place? -> (): \n ").strip()
+        if not second_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        print("You have finished visiting Stavropol. You can choose the next city.\n")
+
+        print("4. -> Krasnodar\n")
+
+        city = input("Your choice for city? -> 4(4): \n ").strip()
+        if not city == "4":
+           print("They are not ready.")
+           break
+
+        print("You chose Krasnodar. It takes 5 hours by car. So you can choose a place to start your travel:\n")
+
+        print("1. -> Hiperboloid Tower")
+        print("2. -> Red Street")
+        print("3. -> Alexander Victory Tac\n")
+
+        place = input("Your choice for start place? -> (): \n ").strip()
+        if not place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        second_place = input("Your choice for start place? -> (): \n ").strip()
+        if not second_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        third_place = input("Where do you want to start? -> ():\n ").strip()
+        if not third_place == "":
+            print("Your choice is \n")
+            print("\n")
+            break
+
+        print("You have finished visiting Russia.\n")
+
+        print("You have finished travelling. Then you can go back your country.\n")
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1690,15 +2296,59 @@ def Travel():
 
 
         while True:
-            print("2. Ukraine")
-            print("3. Russia")
-            print("4. Estonia")
-            print("5. Lithuania")
-            print("8. Latvia")
+            print("2. West Europe (England, Scotland, Wales, Ireland,Northern Ireland, France, Belgium, Netherland, Germany, Luxemburg, Switzerland)")
+            print("3. Latin Countries (Spain, Portugal, Italy")
+            print("4. Scandinavian Countries (Norway, Sweden, Fınland, Denmark)")
+            print("5. Middle Europe Czechia, Austria, Slovenia, Slovakia)")
+            print("6. Balkans (Greece, Bulgaria, Romania, Montenegro, Makedonia, Serbia, Albania, Croatia, Hungary, Slovenia, Bosnia and Herzegovina)")
+
+            part = input("What is your choice for part of Europe? -> 1,2,3,4,5,6:\n ").strip()
+
+            if not part == "1":
+                print("They are not ready.")
+                break
+
             country = input("You have finished travelling Poland. You can choose other country. Where to next? -> 3-8():\n ").strip()
             if not country == "":
                 print("They are not ready.")
                 break
+
+        print("3. -> ")
+        print("4. -> ")
+        print("5. -> ")
+        print("6. -> ")
+        print("7. -> ")
+        print("8. -> ")
+
+        city = input("Your choice for city? -> (): \n ").strip()
+        if not city == "":
+           print("They are not ready.")
+           break
+
+        print("You chose .... . It takes ..... hours by car. So you can choose a place to start your travel:\n")
+
+        print("3. -> ")
+        print("4. -> ")
+        print("5. -> ")
+        print("6. -> ")
+        print("7. -> ")
+        print("8. -> ")
+
+        place = input("Your choice for start place? -> (): \n ").strip()
+        if not place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
+
+        second_place = input("Your choice for start place? -> (): \n ").strip()
+        if not second_place == "":
+            print("Your choice is \n")
+            print("\n")
+        else:
+            print("They are not ready.")
+            break
 
 
 
@@ -1714,6 +2364,21 @@ def Travel():
         print("7. -> ")
         print("8. -> ")
         print("9. -> ")
+
+
+        print("1. -> Bulgaria")
+        print("2. -> Romania")
+        print("3. -> Serbia")
+        print("4. -> Greece")
+        print("5. -> Croatia")
+        print("6. -> Albania")
+        print("7. -> Slovenia")
+        print("8. -> Montenegro")
+        print("9. -> Makedonia")
+        print("10. -> Hungary")
+        print("11. -> Bosna and Herzegovina\n")
+
+        print(f"1. Serbia, 2. Romania, 3. Hungary, 4. Slovenia, 5. Croatia, 6. Bosna and Herzegovina, 7. Montenegro, 8. Kosova, 9. Albania, 10. Greece, 11. Macedonia, 12. Bulgaria")
 
 Travel()
     
